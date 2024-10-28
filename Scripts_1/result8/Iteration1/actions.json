@@ -1,0 +1,67 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: index.htm",
+                "infFile": "t2.inf",
+                "time": 1730058628471
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t3.inf",
+                "time": 1730058628576
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: Search Flights Button",
+                "infFile": "t8.inf",
+                "time": 1730058628701
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Submit Data: reservations.pl",
+                "infFile": "t9.inf",
+                "time": 1730058628744
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Submit Data: reservations.pl_2",
+                "infFile": "t10.inf",
+                "time": 1730058628825
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "01_WT_HomePage",
+                "rawStartTime": 1730058626736,
+                "rawEndTime": 1730058628474,
+                "thinkTime": 0.0,
+                "wastedTime": 0.060274600982666019
+            },
+            {
+                "transactionName": "02_WT_LoginPage",
+                "rawStartTime": 1730058628474,
+                "rawEndTime": 1730058628576,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004342079162597656
+            },
+            {
+                "transactionName": "03_WT_SelectFlight",
+                "rawStartTime": 1730058628577,
+                "rawEndTime": 1730058628702,
+                "thinkTime": 0.0,
+                "wastedTime": 0.007302284240722656
+            },
+            {
+                "transactionName": "04_WT_ReserveFlight",
+                "rawStartTime": 1730058628703,
+                "rawEndTime": 1730058628825,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004642486572265625
+            }
+        ]
+    }
+]

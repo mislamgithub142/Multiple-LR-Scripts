@@ -1,0 +1,13 @@
+[t6]
+SnapshotXmlFile=snapshot_5.xml
+ContentType=text/html
+StepName=Submit Data: reservations.pl_2
+Total=1
+FileName1=t6.html
+RequestHeaderFile=t6_RequestHeader.txt
+ResponseHeaderFile=t6_ResponseHeader.txt
+RawStepEndTime=1730124837185
+RawStepName=reservations.pl_2
+RequestBodyFile=t6_RequestBody.txt
+RawStepStartTime=1730124837100
+URL1=http://192.168.1.182:1080/cgi-bin/reservations.pl

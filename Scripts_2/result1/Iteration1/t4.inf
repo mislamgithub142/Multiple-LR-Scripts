@@ -1,0 +1,26 @@
+[t4]
+FileName2=t2f0.html
+RawStepEndTime=1730054410397
+FileName5=t4f1f1.html
+FileName4=t4f1f0.html
+UseFrameIndex=1
+RequestBodyFile=t4_RequestBody.txt
+RawStepName=Search Flights Button
+ContentType=text/html
+URL1=http://192.168.1.182:1080/WebTours/index.htm
+URL2=http://192.168.1.182:1080/WebTours/header.html
+URL3=http://192.168.1.182:1080/cgi-bin/welcome.pl?page=search
+ResponseHeaderFile=t4_ResponseHeader.txt
+URL4=http://192.168.1.182:1080/cgi-bin/nav.pl?page=menu&in=flights
+URL5=http://192.168.1.182:1080/cgi-bin/reservations.pl?page=welcome
+SnapshotXmlFile=snapshot_3.xml
+RequestHeaderFile=t4_RequestHeader.txt
+RawStepStartTime=1730054410284
+Total=5
+StepName=Url: Search Flights Button
+FrameIndex2=0.0
+FrameIndex3=0.1
+FrameIndex4=0.1.0
+FrameIndex5=0.1.1
+FileName1=t2.html
+FileName3=t4f1.html

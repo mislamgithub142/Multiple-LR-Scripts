@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sun, 27 Oct 2024 19:51:24 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: 5s
+Set-Cookie: MTUserInfo=firstName&Mohammed1&address2&South%20Amboy%20NJ%2008879&username&mislam1&hash&17&lastName&islam1%0A&address1&225%20TYLER%20STREET&creditCard&&expDate&%0A; path=/
+Keep-Alive: timeout=5, max=97
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+

@@ -1,0 +1,25 @@
+c:\lr-pr-2025\wt-2025\wt-demo-webhttphtml1\\pre_cci.c: FindFlight.c:26: error: illegal statement termination
+c:\lr-pr-2025\wt-2025\wt-demo-webhttphtml1\\pre_cci.c: FindFlight.c:26: error: skipping `<'
+c:\lr-pr-2025\wt-2025\wt-demo-webhttphtml1\\pre_cci.c: FindFlight.c:26: error: undeclared identifier `option'
+c:\lr-pr-2025\wt-2025\wt-demo-webhttphtml1\\pre_cci.c: FindFlight.c:26: warning: expression with no effect elided
+c:\lr-pr-2025\wt-2025\wt-demo-webhttphtml1\\pre_cci.c: FindFlight.c:26: error: syntax error; found `selected' expecting `;'
+c:\lr-pr-2025\wt-2025\wt-demo-webhttphtml1\\pre_cci.c: FindFlight.c:26: error: undeclared identifier `selected'
+c:\lr-pr-2025\wt-2025\wt-demo-webhttphtml1\\pre_cci.c: FindFlight.c:26: error: operands of = have illegal types `int' and `pointer to char'
+c:\lr-pr-2025\wt-2025\wt-demo-webhttphtml1\\pre_cci.c: FindFlight.c:26: error: syntax error; found `value' expecting `;'
+c:\lr-pr-2025\wt-2025\wt-demo-webhttphtml1\\pre_cci.c: FindFlight.c:26: error: undeclared identifier `value'
+c:\lr-pr-2025\wt-2025\wt-demo-webhttphtml1\\pre_cci.c: FindFlight.c:26: error: undeclared identifier `Denver'
+c:\lr-pr-2025\wt-2025\wt-demo-webhttphtml1\\pre_cci.c: FindFlight.c:26: error: operands of > have illegal types `pointer to char' and `int'
+c:\lr-pr-2025\wt-2025\wt-demo-webhttphtml1\\pre_cci.c: FindFlight.c:26: error: illegal expression
+c:\lr-pr-2025\wt-2025\wt-demo-webhttphtml1\\pre_cci.c: FindFlight.c:26: error: syntax error; found `option' expecting `;'
+c:\lr-pr-2025\wt-2025\wt-demo-webhttphtml1\\pre_cci.c: FindFlight.c:26: error: undeclared identifier `it'
+c:\lr-pr-2025\wt-2025\wt-demo-webhttphtml1\\pre_cci.c: FindFlight.c:26: warning: expression with no effect elided
+c:\lr-pr-2025\wt-2025\wt-demo-webhttphtml1\\pre_cci.c: FindFlight.c:26: error: syntax error; found `is' expecting `;'
+c:\lr-pr-2025\wt-2025\wt-demo-webhttphtml1\\pre_cci.c: FindFlight.c:26: error: undeclared identifier `is'
+c:\lr-pr-2025\wt-2025\wt-demo-webhttphtml1\\pre_cci.c: FindFlight.c:26: warning: expression with no effect elided
+c:\lr-pr-2025\wt-2025\wt-demo-webhttphtml1\\pre_cci.c: FindFlight.c:26: error: syntax error; found `by' expecting `;'
+c:\lr-pr-2025\wt-2025\wt-demo-webhttphtml1\\pre_cci.c: FindFlight.c:26: error: undeclared identifier `by'
+c:\lr-pr-2025\wt-2025\wt-demo-webhttphtml1\\pre_cci.c: FindFlight.c:26: warning: expression with no effect elided
+c:\lr-pr-2025\wt-2025\wt-demo-webhttphtml1\\pre_cci.c: FindFlight.c:26: error: syntax error; found `default' expecting `;'
+c:\lr-pr-2025\wt-2025\wt-demo-webhttphtml1\\pre_cci.c: FindFlight.c:26: error: illegal default label
+c:\lr-pr-2025\wt-2025\wt-demo-webhttphtml1\\pre_cci.c: FindFlight.c:27: error: syntax error; found `Using' expecting `:'
+c:\lr-pr-2025\wt-2025\wt-demo-webhttphtml1\\pre_cci.c: FindFlight.c:27: error: too many errors

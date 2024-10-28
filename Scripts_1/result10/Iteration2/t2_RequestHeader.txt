@@ -1,0 +1,12 @@
+GET /WebTours/index.htm HTTP/1.1
+Priority: u=0, i
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.5
+DNT: 1
+Sec-GPC: 1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0
+Connection: Keep-Alive
+Host: 192.168.1.182:1080
+

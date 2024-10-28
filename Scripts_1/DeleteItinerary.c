@@ -1,0 +1,4 @@
+DeleteItinerary()
+{
+	return 0;
+}

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\LR-PR-2025\WT-2025\WT-Demo-WebHttpHtml1
+-IC:\Program Files (x86)\OpenText\LoadRunner\include
+-ec:\lr-pr-2025\wt-2025\wt-demo-webhttphtml1\\logfile.log
+c:\lr-pr-2025\wt-2025\wt-demo-webhttphtml1\\combined_WT-Demo-WebHttpHtml1.c
+c:\lr-pr-2025\wt-2025\wt-demo-webhttphtml1\\pre_cci.c

@@ -1,0 +1,10 @@
+[hosts]
+192.168.1.182=
+content-signature-2.cdn.mozilla.net=
+firefox.settings.services.mozilla.com=
+safebrowsing.googleapis.com=
+push.services.mozilla.com=
+incoming.telemetry.mozilla.org=
+aus5.mozilla.org=
+normandy.cdn.mozilla.net=
+classify-client.services.mozilla.com=

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\LR-PR-2025\WT2024_RT\WebTours-usingruleAll
+-IC:\Program Files (x86)\OpenText\LoadRunner\include
+-ec:\lr-pr-2025\wt2024_rt\webtours-usingruleall\\logfile.log
+c:\lr-pr-2025\wt2024_rt\webtours-usingruleall\\combined_WebTours-usingruleAll.c
+c:\lr-pr-2025\wt2024_rt\webtours-usingruleall\\pre_cci.c

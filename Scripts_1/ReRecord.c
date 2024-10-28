@@ -1,0 +1,4 @@
+ReRecord()
+{
+	return 0;
+}

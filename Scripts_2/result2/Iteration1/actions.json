@@ -1,0 +1,50 @@
+[
+    {
+        "actionName": "TestRecording",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: index.htm",
+                "infFile": "t2.inf",
+                "time": 1730124836814
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t3.inf",
+                "time": 1730124836927
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: Search Flights Button",
+                "infFile": "t4.inf",
+                "time": 1730124837056
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Submit Data: reservations.pl",
+                "infFile": "t5.inf",
+                "time": 1730124837099
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Submit Data: reservations.pl_2",
+                "infFile": "t6.inf",
+                "time": 1730124837193
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Submit Data: reservations.pl_3",
+                "infFile": "t7.inf",
+                "time": 1730124837289
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: SignOff Button",
+                "infFile": "t8.inf",
+                "time": 1730124837400
+            }
+        ],
+        "transactions": []
+    }
+]
