@@ -1,0 +1,6 @@
+[Action]
+SnapshotIndex=I2_Action
+[DeleteItinerary]
+SnapshotIndex=I2_DeleteItinerary
+[ReRecord]
+SnapshotIndex=I2_ReRecord

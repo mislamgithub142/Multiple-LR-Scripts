@@ -1,0 +1,26 @@
+[t2]
+FileName2=t2f0.html
+RawStepEndTime=1730057073623
+FileName5=t2f1f1.html
+FileName4=t2f1f0.html
+UseFrameIndex=1
+RequestBodyFile=t2_RequestBody.txt
+RawStepName=index.htm
+ContentType=text/html
+URL1=http://192.168.1.182:1080/WebTours/index.htm
+URL2=http://192.168.1.182:1080/WebTours/header.html
+URL3=http://192.168.1.182:1080/cgi-bin/welcome.pl?signOff=true
+ResponseHeaderFile=t2_ResponseHeader.txt
+URL4=http://192.168.1.182:1080/cgi-bin/nav.pl?in=home
+URL5=http://192.168.1.182:1080/WebTours/home.html
+SnapshotXmlFile=snapshot_1.xml
+RequestHeaderFile=t2_RequestHeader.txt
+RawStepStartTime=1730057073566
+Total=5
+StepName=Url: index.htm
+FrameIndex2=0.0
+FrameIndex3=0.1
+FrameIndex4=0.1.0
+FrameIndex5=0.1.1
+FileName1=t2.html
+FileName3=t2f1.html

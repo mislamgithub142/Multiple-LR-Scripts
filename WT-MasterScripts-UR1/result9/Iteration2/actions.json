@@ -1,0 +1,86 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: index.htm",
+                "infFile": "t2.inf",
+                "time": 1730057627737
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t3.inf",
+                "time": 1730057627864
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: Search Flights Button",
+                "infFile": "t8.inf",
+                "time": 1730057627987
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Submit Data: reservations.pl",
+                "infFile": "t9.inf",
+                "time": 1730057628031
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Submit Data: reservations.pl_2",
+                "infFile": "t10.inf",
+                "time": 1730057628112
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Submit Data: reservations.pl_3",
+                "infFile": "t11.inf",
+                "time": 1730057628207
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Url: welcome.pl",
+                "infFile": "t12.inf",
+                "time": 1730057628321
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "01_WT_HomePage",
+                "rawStartTime": 1730057627665,
+                "rawEndTime": 1730057627739,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005951642990112305
+            },
+            {
+                "transactionName": "02_WT_LoginPage",
+                "rawStartTime": 1730057627739,
+                "rawEndTime": 1730057627864,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005028486251831055
+            },
+            {
+                "transactionName": "03_WT_SelectFlight",
+                "rawStartTime": 1730057627865,
+                "rawEndTime": 1730057627989,
+                "thinkTime": 0.0,
+                "wastedTime": 0.008242130279541016
+            },
+            {
+                "transactionName": "04_WT_ReserveFlight",
+                "rawStartTime": 1730057627989,
+                "rawEndTime": 1730057628208,
+                "thinkTime": 0.0,
+                "wastedTime": 0.010296106338500977
+            },
+            {
+                "transactionName": "05_WT_Logout",
+                "rawStartTime": 1730057628208,
+                "rawEndTime": 1730057628321,
+                "thinkTime": 0.0,
+                "wastedTime": 0.00395512580871582
+            }
+        ]
+    }
+]

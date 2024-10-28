@@ -1,0 +1,26 @@
+[t3]
+FileName2=t2f0.html
+RawStepEndTime=1730058235088
+FileName5=t3f1f1.html
+FileName4=t3f1f0.html
+UseFrameIndex=1
+RequestBodyFile=t3_RequestBody.txt
+RawStepName=login.pl
+ContentType=text/html
+URL1=http://192.168.1.182:1080/WebTours/index.htm
+URL2=http://192.168.1.182:1080/WebTours/header.html
+URL3=http://192.168.1.182:1080/cgi-bin/login.pl
+ResponseHeaderFile=t3_ResponseHeader.txt
+URL4=http://192.168.1.182:1080/cgi-bin/nav.pl?page=menu&in=home
+URL5=http://192.168.1.182:1080/cgi-bin/login.pl?intro=true
+SnapshotXmlFile=snapshot_2.xml
+RequestHeaderFile=t3_RequestHeader.txt
+RawStepStartTime=1730058234966
+Total=5
+StepName=Submit Data: login.pl
+FrameIndex2=0.0
+FrameIndex3=0.1
+FrameIndex4=0.1.0
+FrameIndex5=0.1.1
+FileName1=t2.html
+FileName3=t3f1.html
