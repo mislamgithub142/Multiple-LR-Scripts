@@ -1,0 +1,548 @@
+Virtual User Script started at: 10/30/2024 10:15:36 AM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2024.3.0 for Windows 11; build 528 (Jul 14 2024 16:38:13)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; Trident/7.0; rv:11.0) like Gecko  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\2025-Development\Multiple-LR-Scripts\JP-10-30-2024-1\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(7): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(7): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(9): web_add_auto_header("Accept-Language") started  	[MsgId: MMSG-26355]
+Action.c(9): web_add_auto_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+Action.c(12): web_url("192.168.1.193:8084") started  	[MsgId: MMSG-26355]
+Action.c(12): Found resource "http://192.168.1.193:8084/css/jpetstore.css" in HTML "http://192.168.1.193:8084/"  	[MsgId: MMSG-26659]
+Action.c(12): web_url("192.168.1.193:8084") was successful, 7129 body bytes, 493 header bytes  	[MsgId: MMSG-26386]
+Action.c(28): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(28): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(33): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(33): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(43): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+Action.c(43): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+Action.c(52): web_url("Enter the Store") started  	[MsgId: MMSG-26355]
+Action.c(52): Notify: Saving Parameter "categoryIdimage_1 = "../images/logo-topbar.svg".
+Action.c(52): Notify: Saving Parameter "categoryId_1 = FISH".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_2 = "../images/sm_fish.gif".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_3 = "../images/separator.gif".
+Action.c(52): Notify: Saving Parameter "categoryId_2 = DOGS".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_4 = "../images/sm_dogs.gif".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_5 = "../images/separator.gif".
+Action.c(52): Notify: Saving Parameter "categoryId_3 = REPTILES".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_6 = "../images/sm_reptiles.gif".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_7 = "../images/separator.gif".
+Action.c(52): Resource "http://192.168.1.193:8084/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/logo-topbar.svg" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/cart.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/separator.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/sm_fish.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/sm_dogs.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/sm_reptiles.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Notify: Saving Parameter "categoryId_4 = CATS".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_8 = "../images/sm_cats.gif".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_9 = "../images/separator.gif".
+Action.c(52): Notify: Saving Parameter "categoryId_5 = BIRDS".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_10 = "../images/sm_birds.gif".
+Action.c(52): Notify: Saving Parameter "categoryId_6 = FISH".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_11 = "../images/fish_icon.gif".
+Action.c(52): Notify: Saving Parameter "categoryId_7 = DOGS".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_12 = "../images/dogs_icon.gif".
+Action.c(52): Notify: Saving Parameter "categoryId_8 = CATS".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_13 = "../images/cats_icon.gif".
+Action.c(52): Notify: Saving Parameter "categoryId_9 = REPTILES".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_14 = "../images/reptiles_icon.gif".
+Action.c(52): Notify: Saving Parameter "categoryId_10 = BIRDS".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_15 = "../images/birds_icon.gif".
+Action.c(52): Notify: Saving Parameter "categoryId_11 = BIRDS" shape="RECT" />\n  </map>\n  <img height="355" src="../images/splash.gif" align="middle"\n	usemap="#estoremap" width="350" /></div>\n</div>\n\n<div id="Separator".
+Action.c(52): Found resource "http://192.168.1.193:8084/images/sm_cats.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/sm_birds.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/fish_icon.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/dogs_icon.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/cats_icon.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/reptiles_icon.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/birds_icon.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/splash.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Notify: Saving Parameter "jsessionid = 40887A565F1FD4B782A15BD2E08F1FD0".
+Action.c(52): Notify: Saving Parameter "categoryId_count = 11".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_count = 15".
+Action.c(52): web_url("Enter the Store") was successful, 63413 body bytes, 3705 header bytes  	[MsgId: MMSG-26386]
+Action.c(66): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(66): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(76): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(76): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(86): web_url("Sign In") started  	[MsgId: MMSG-26355]
+Action.c(86): Notify: Parameter Substitution: parameter "jsessionid" =  "40887A565F1FD4B782A15BD2E08F1FD0"
+Action.c(86): Resource "http://192.168.1.193:8084/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(86): Resource "http://192.168.1.193:8084/images/logo-topbar.svg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(86): Resource "http://192.168.1.193:8084/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(86): Resource "http://192.168.1.193:8084/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(86): Resource "http://192.168.1.193:8084/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(86): Resource "http://192.168.1.193:8084/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(86): Resource "http://192.168.1.193:8084/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(86): Resource "http://192.168.1.193:8084/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(86): Resource "http://192.168.1.193:8084/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(86): Notify: Saving Parameter "_sourcePage = 3OfgXEjwbzQ7HOozXObWkz6IZ5PB2MbL7MdMd4Nh3pq8eAx0zlbWOU2Xd7p6FnYdhi2Y3WBWj1TqKwDBOOnyUfg_Iwxejbz3m6MQfZCOUXM=".
+Action.c(86): Notify: Saving Parameter "__fp = 4hggFVYh2FEX6NuPZbVBlvoYPcyEJuHmWjQDwoaXCvpOKwUukKlZZ1k2wagzn7gs".
+Action.c(86): web_url("Sign In") was successful, 3858 body bytes, 188 header bytes  	[MsgId: MMSG-26386]
+Action.c(100): web_submit_data("Account.action") started  	[MsgId: MMSG-26355]
+Action.c(100): Notify: Parameter Substitution: parameter "jsessionid" =  "40887A565F1FD4B782A15BD2E08F1FD0"
+Action.c(100): Notify: Parameter Substitution: parameter "username" =  "mislam"
+Action.c(100): Notify: Parameter Substitution: parameter "_sourcePage" =  "3OfgXEjwbzQ7HOozXObWkz6IZ5PB2MbL7MdMd4Nh3pq8eAx0zlbWOU2Xd7p6FnYdhi2Y3WBWj1TqKwDBOOnyUfg_Iwxejbz3m6MQfZCOUXM="
+Action.c(100): Notify: Parameter Substitution: parameter "__fp" =  "4hggFVYh2FEX6NuPZbVBlvoYPcyEJuHmWjQDwoaXCvpOKwUukKlZZ1k2wagzn7gs"
+Action.c(100): Redirecting "http://192.168.1.193:8084/actions/Account.action" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(100): To location "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26693]
+Action.c(100): Resource "http://192.168.1.193:8084/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/logo-topbar.svg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/fish_icon.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/dogs_icon.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/cats_icon.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/reptiles_icon.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/birds_icon.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/splash.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): web_submit_data("Account.action") was successful, 4909 body bytes, 369 header bytes  	[MsgId: MMSG-26386]
+Action.c(123): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(123): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(129): web_url("{allimages}") started  	[MsgId: MMSG-26355]
+Action.c(129): Notify: Saving Parameter "productId_1 = FI-SW-01".
+Action.c(129): Notify: Saving Parameter "productId_2 = FI-SW-02".
+Action.c(129): Notify: Saving Parameter "productId_3 = FI-FW-01".
+Action.c(129): Notify: Saving Parameter "productId_4 = FI-FW-02".
+Action.c(129): Resource "http://192.168.1.193:8084/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(129): Resource "http://192.168.1.193:8084/images/logo-topbar.svg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(129): Resource "http://192.168.1.193:8084/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(129): Resource "http://192.168.1.193:8084/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(129): Resource "http://192.168.1.193:8084/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(129): Resource "http://192.168.1.193:8084/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(129): Resource "http://192.168.1.193:8084/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(129): Resource "http://192.168.1.193:8084/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(129): Resource "http://192.168.1.193:8084/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(129): Notify: Saving Parameter "productId_count = 4".
+Action.c(129): web_url("{allimages}") was successful, 3828 body bytes, 188 header bytes  	[MsgId: MMSG-26386]
+Action.c(139): Notify: Parameter Substitution: parameter "categoryId_count" =  "11"
+Action.c(139): Notify: Parameter Substitution: parameter "categoryId_1" =  "FISH"
+Action.c(140): Notify: Saving Parameter "allProducts = FISH".
+Action.c(143): Notify: Parameter Substitution: parameter "categoryIdimage_count" =  "15"
+Action.c(143): Notify: Parameter Substitution: parameter "categoryIdimage_5" =  ""../images/separator.gif"
+Action.c(144): Notify: Saving Parameter "allimages = "../images/separator.gif".
+Action.c(154): web_url("{allproductsid}") started  	[MsgId: MMSG-26355]
+Action.c(154): Warning: The string 'allproductsid' with parameter delimiters is not a parameter.
+Action.c(154): Error -26630: HTTP Status-Code=400 (Bad Request) for "http://192.168.1.193:8084/actions/Catalog.action?viewProduct=&productId={allproductsid}"  	[MsgId: MERR-26630]
+Action.c(154): web_url("{allproductsid}") highest severity level was "ERROR", 2134 body bytes, 156 header bytes  	[MsgId: MMSG-26388]
+Ending action Action.
+Ending iteration 1.
+Starting iteration 2.
+Notify: Next row for parameter username = 2 [table  = username].
+Notify: Getting new value for parameter 'username': table = 'username.dat' column = '0' row = '2'.
+Starting action Action.
+Action.c(7): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(7): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(9): web_add_auto_header("Accept-Language") started  	[MsgId: MMSG-26355]
+Action.c(9): web_add_auto_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+Action.c(12): web_url("192.168.1.193:8084") started  	[MsgId: MMSG-26355]
+Action.c(12): Found resource "http://192.168.1.193:8084/css/jpetstore.css" in HTML "http://192.168.1.193:8084/"  	[MsgId: MMSG-26659]
+Action.c(12): web_url("192.168.1.193:8084") was successful, 7129 body bytes, 493 header bytes  	[MsgId: MMSG-26386]
+Action.c(28): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(28): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(33): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(33): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(43): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+Action.c(43): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+Action.c(52): web_url("Enter the Store") started  	[MsgId: MMSG-26355]
+Action.c(52): Notify: Saving Parameter "categoryIdimage_1 = "../images/logo-topbar.svg".
+Action.c(52): Notify: Saving Parameter "categoryId_1 = FISH".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_2 = "../images/sm_fish.gif".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_3 = "../images/separator.gif".
+Action.c(52): Notify: Saving Parameter "categoryId_2 = DOGS".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_4 = "../images/sm_dogs.gif".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_5 = "../images/separator.gif".
+Action.c(52): Notify: Saving Parameter "categoryId_3 = REPTILES".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_6 = "../images/sm_reptiles.gif".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_7 = "../images/separator.gif".
+Action.c(52): Resource "http://192.168.1.193:8084/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/logo-topbar.svg" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/cart.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/separator.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/sm_fish.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/sm_dogs.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/sm_reptiles.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Notify: Saving Parameter "categoryId_4 = CATS".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_8 = "../images/sm_cats.gif".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_9 = "../images/separator.gif".
+Action.c(52): Notify: Saving Parameter "categoryId_5 = BIRDS".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_10 = "../images/sm_birds.gif".
+Action.c(52): Notify: Saving Parameter "categoryId_6 = FISH".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_11 = "../images/fish_icon.gif".
+Action.c(52): Notify: Saving Parameter "categoryId_7 = DOGS".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_12 = "../images/dogs_icon.gif".
+Action.c(52): Notify: Saving Parameter "categoryId_8 = CATS".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_13 = "../images/cats_icon.gif".
+Action.c(52): Notify: Saving Parameter "categoryId_9 = REPTILES".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_14 = "../images/reptiles_icon.gif".
+Action.c(52): Notify: Saving Parameter "categoryId_10 = BIRDS".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_15 = "../images/birds_icon.gif".
+Action.c(52): Notify: Saving Parameter "categoryId_11 = BIRDS" shape="RECT" />\n  </map>\n  <img height="355" src="../images/splash.gif" align="middle"\n	usemap="#estoremap" width="350" /></div>\n</div>\n\n<div id="Separator".
+Action.c(52): Found resource "http://192.168.1.193:8084/images/sm_cats.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/sm_birds.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/fish_icon.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/dogs_icon.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/cats_icon.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/reptiles_icon.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/birds_icon.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/splash.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Notify: Saving Parameter "jsessionid = 9D4DD0CA9A02C40C65C88AC1765F6F4B".
+Action.c(52): Notify: Saving Parameter "categoryId_count = 11".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_count = 15".
+Action.c(52): web_url("Enter the Store") was successful, 63413 body bytes, 3705 header bytes  	[MsgId: MMSG-26386]
+Action.c(66): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(66): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(76): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(76): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(86): web_url("Sign In") started  	[MsgId: MMSG-26355]
+Action.c(86): Notify: Parameter Substitution: parameter "jsessionid" =  "9D4DD0CA9A02C40C65C88AC1765F6F4B"
+Action.c(86): Resource "http://192.168.1.193:8084/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(86): Resource "http://192.168.1.193:8084/images/logo-topbar.svg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(86): Resource "http://192.168.1.193:8084/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(86): Resource "http://192.168.1.193:8084/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(86): Resource "http://192.168.1.193:8084/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(86): Resource "http://192.168.1.193:8084/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(86): Resource "http://192.168.1.193:8084/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(86): Resource "http://192.168.1.193:8084/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(86): Resource "http://192.168.1.193:8084/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(86): Notify: Saving Parameter "_sourcePage = mtuzKPWpqw-DACuDrTgA0Hu-roNrI16PpgZsefWhtMu_mDK3jWvD5Inkv4lqB49NlHLnZaIhZ5k3R73LKpiChGzjClecJm9Wni4jdAsBjjI=".
+Action.c(86): Notify: Saving Parameter "__fp = bwgfnJUwSjq5nZ8885BxmXGEF4J6-94l6EIPgKk4xxeAjnzuxJwCiDlOfDQkZ4jf".
+Action.c(86): web_url("Sign In") was successful, 3858 body bytes, 188 header bytes  	[MsgId: MMSG-26386]
+Action.c(100): web_submit_data("Account.action") started  	[MsgId: MMSG-26355]
+Action.c(100): Notify: Parameter Substitution: parameter "jsessionid" =  "9D4DD0CA9A02C40C65C88AC1765F6F4B"
+Action.c(100): Notify: Parameter Substitution: parameter "username" =  "evan"
+Action.c(100): Notify: Parameter Substitution: parameter "_sourcePage" =  "mtuzKPWpqw-DACuDrTgA0Hu-roNrI16PpgZsefWhtMu_mDK3jWvD5Inkv4lqB49NlHLnZaIhZ5k3R73LKpiChGzjClecJm9Wni4jdAsBjjI="
+Action.c(100): Notify: Parameter Substitution: parameter "__fp" =  "bwgfnJUwSjq5nZ8885BxmXGEF4J6-94l6EIPgKk4xxeAjnzuxJwCiDlOfDQkZ4jf"
+Action.c(100): Redirecting "http://192.168.1.193:8084/actions/Account.action" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(100): To location "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26693]
+Action.c(100): Resource "http://192.168.1.193:8084/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/logo-topbar.svg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/fish_icon.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/dogs_icon.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/cats_icon.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/reptiles_icon.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/birds_icon.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/splash.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): web_submit_data("Account.action") was successful, 4905 body bytes, 369 header bytes  	[MsgId: MMSG-26386]
+Action.c(123): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(123): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(129): web_url("{allimages}") started  	[MsgId: MMSG-26355]
+Action.c(129): Notify: Saving Parameter "productId_1 = FI-SW-01".
+Action.c(129): Notify: Saving Parameter "productId_2 = FI-SW-02".
+Action.c(129): Notify: Saving Parameter "productId_3 = FI-FW-01".
+Action.c(129): Notify: Saving Parameter "productId_4 = FI-FW-02".
+Action.c(129): Resource "http://192.168.1.193:8084/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(129): Resource "http://192.168.1.193:8084/images/logo-topbar.svg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(129): Resource "http://192.168.1.193:8084/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(129): Resource "http://192.168.1.193:8084/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(129): Resource "http://192.168.1.193:8084/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(129): Resource "http://192.168.1.193:8084/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(129): Resource "http://192.168.1.193:8084/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(129): Resource "http://192.168.1.193:8084/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(129): Resource "http://192.168.1.193:8084/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(129): Notify: Saving Parameter "productId_count = 4".
+Action.c(129): web_url("{allimages}") was successful, 3828 body bytes, 188 header bytes  	[MsgId: MMSG-26386]
+Action.c(139): Notify: Parameter Substitution: parameter "categoryId_count" =  "11"
+Action.c(139): Notify: Parameter Substitution: parameter "categoryId_5" =  "BIRDS"
+Action.c(140): Notify: Saving Parameter "allProducts = BIRDS".
+Action.c(143): Notify: Parameter Substitution: parameter "categoryIdimage_count" =  "15"
+Action.c(143): Notify: Parameter Substitution: parameter "categoryIdimage_14" =  ""../images/reptiles_icon.gif"
+Action.c(144): Notify: Saving Parameter "allimages = "../images/reptiles_icon.gif".
+Action.c(154): web_url("{allproductsid}") started  	[MsgId: MMSG-26355]
+Action.c(154): Warning: The string 'allproductsid' with parameter delimiters is not a parameter.
+Action.c(154): Error -26630: HTTP Status-Code=400 (Bad Request) for "http://192.168.1.193:8084/actions/Catalog.action?viewProduct=&productId={allproductsid}"  	[MsgId: MERR-26630]
+Action.c(154): web_url("{allproductsid}") highest severity level was "ERROR", 2134 body bytes, 156 header bytes  	[MsgId: MMSG-26388]
+Ending action Action.
+Ending iteration 2.
+Starting iteration 3.
+Notify: Next row for parameter username = 3 [table  = username].
+Notify: Getting new value for parameter 'username': table = 'username.dat' column = '0' row = '3'.
+Starting action Action.
+Action.c(7): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(7): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(9): web_add_auto_header("Accept-Language") started  	[MsgId: MMSG-26355]
+Action.c(9): web_add_auto_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+Action.c(12): web_url("192.168.1.193:8084") started  	[MsgId: MMSG-26355]
+Action.c(12): Found resource "http://192.168.1.193:8084/css/jpetstore.css" in HTML "http://192.168.1.193:8084/"  	[MsgId: MMSG-26659]
+Action.c(12): web_url("192.168.1.193:8084") was successful, 7129 body bytes, 493 header bytes  	[MsgId: MMSG-26386]
+Action.c(28): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(28): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(33): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(33): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(43): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+Action.c(43): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+Action.c(52): web_url("Enter the Store") started  	[MsgId: MMSG-26355]
+Action.c(52): Notify: Saving Parameter "categoryIdimage_1 = "../images/logo-topbar.svg".
+Action.c(52): Notify: Saving Parameter "categoryId_1 = FISH".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_2 = "../images/sm_fish.gif".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_3 = "../images/separator.gif".
+Action.c(52): Notify: Saving Parameter "categoryId_2 = DOGS".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_4 = "../images/sm_dogs.gif".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_5 = "../images/separator.gif".
+Action.c(52): Notify: Saving Parameter "categoryId_3 = REPTILES".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_6 = "../images/sm_reptiles.gif".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_7 = "../images/separator.gif".
+Action.c(52): Resource "http://192.168.1.193:8084/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/logo-topbar.svg" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/cart.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/separator.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/sm_fish.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/sm_dogs.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/sm_reptiles.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Notify: Saving Parameter "categoryId_4 = CATS".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_8 = "../images/sm_cats.gif".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_9 = "../images/separator.gif".
+Action.c(52): Notify: Saving Parameter "categoryId_5 = BIRDS".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_10 = "../images/sm_birds.gif".
+Action.c(52): Notify: Saving Parameter "categoryId_6 = FISH".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_11 = "../images/fish_icon.gif".
+Action.c(52): Notify: Saving Parameter "categoryId_7 = DOGS".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_12 = "../images/dogs_icon.gif".
+Action.c(52): Notify: Saving Parameter "categoryId_8 = CATS".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_13 = "../images/cats_icon.gif".
+Action.c(52): Notify: Saving Parameter "categoryId_9 = REPTILES".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_14 = "../images/reptiles_icon.gif".
+Action.c(52): Notify: Saving Parameter "categoryId_10 = BIRDS".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_15 = "../images/birds_icon.gif".
+Action.c(52): Notify: Saving Parameter "categoryId_11 = BIRDS" shape="RECT" />\n  </map>\n  <img height="355" src="../images/splash.gif" align="middle"\n	usemap="#estoremap" width="350" /></div>\n</div>\n\n<div id="Separator".
+Action.c(52): Found resource "http://192.168.1.193:8084/images/sm_cats.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/sm_birds.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/fish_icon.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/dogs_icon.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/cats_icon.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/reptiles_icon.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/birds_icon.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/splash.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Notify: Saving Parameter "jsessionid = 3847F74B31E41B6CCE7D6C25C7B20EDB".
+Action.c(52): Notify: Saving Parameter "categoryId_count = 11".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_count = 15".
+Action.c(52): web_url("Enter the Store") was successful, 63413 body bytes, 3705 header bytes  	[MsgId: MMSG-26386]
+Action.c(66): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(66): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(76): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(76): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(86): web_url("Sign In") started  	[MsgId: MMSG-26355]
+Action.c(86): Notify: Parameter Substitution: parameter "jsessionid" =  "3847F74B31E41B6CCE7D6C25C7B20EDB"
+Action.c(86): Resource "http://192.168.1.193:8084/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(86): Resource "http://192.168.1.193:8084/images/logo-topbar.svg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(86): Resource "http://192.168.1.193:8084/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(86): Resource "http://192.168.1.193:8084/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(86): Resource "http://192.168.1.193:8084/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(86): Resource "http://192.168.1.193:8084/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(86): Resource "http://192.168.1.193:8084/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(86): Resource "http://192.168.1.193:8084/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(86): Resource "http://192.168.1.193:8084/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(86): Notify: Saving Parameter "_sourcePage = nI9iB_beOInDbhgpn6dg04LUPlC1qdlLS1YgOErbpYu3vRBH9lmixhLj1fGs9tjrnOehLtolz_rqHpr8_lR_ZSWb3mYo8UbUX5wwA2RDBSQ=".
+Action.c(86): Notify: Saving Parameter "__fp = 8DYOEfhetphDpYXpv1UPbPeqlxaEW65JyTFXZSJ1XqbJrxAWTxKimmpRSQXtM4ij".
+Action.c(86): web_url("Sign In") was successful, 3858 body bytes, 188 header bytes  	[MsgId: MMSG-26386]
+Action.c(100): web_submit_data("Account.action") started  	[MsgId: MMSG-26355]
+Action.c(100): Notify: Parameter Substitution: parameter "jsessionid" =  "3847F74B31E41B6CCE7D6C25C7B20EDB"
+Action.c(100): Notify: Parameter Substitution: parameter "username" =  "ryan"
+Action.c(100): Notify: Parameter Substitution: parameter "_sourcePage" =  "nI9iB_beOInDbhgpn6dg04LUPlC1qdlLS1YgOErbpYu3vRBH9lmixhLj1fGs9tjrnOehLtolz_rqHpr8_lR_ZSWb3mYo8UbUX5wwA2RDBSQ="
+Action.c(100): Notify: Parameter Substitution: parameter "__fp" =  "8DYOEfhetphDpYXpv1UPbPeqlxaEW65JyTFXZSJ1XqbJrxAWTxKimmpRSQXtM4ij"
+Action.c(100): Redirecting "http://192.168.1.193:8084/actions/Account.action" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(100): To location "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26693]
+Action.c(100): Resource "http://192.168.1.193:8084/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/logo-topbar.svg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/fish_icon.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/dogs_icon.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/cats_icon.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/reptiles_icon.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/birds_icon.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/splash.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): web_submit_data("Account.action") was successful, 4905 body bytes, 369 header bytes  	[MsgId: MMSG-26386]
+Action.c(123): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(123): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(129): web_url("{allimages}") started  	[MsgId: MMSG-26355]
+Action.c(129): Notify: Saving Parameter "productId_1 = FI-SW-01".
+Action.c(129): Notify: Saving Parameter "productId_2 = FI-SW-02".
+Action.c(129): Notify: Saving Parameter "productId_3 = FI-FW-01".
+Action.c(129): Notify: Saving Parameter "productId_4 = FI-FW-02".
+Action.c(129): Resource "http://192.168.1.193:8084/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(129): Resource "http://192.168.1.193:8084/images/logo-topbar.svg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(129): Resource "http://192.168.1.193:8084/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(129): Resource "http://192.168.1.193:8084/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(129): Resource "http://192.168.1.193:8084/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(129): Resource "http://192.168.1.193:8084/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(129): Resource "http://192.168.1.193:8084/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(129): Resource "http://192.168.1.193:8084/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(129): Resource "http://192.168.1.193:8084/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(129): Notify: Saving Parameter "productId_count = 4".
+Action.c(129): web_url("{allimages}") was successful, 3828 body bytes, 188 header bytes  	[MsgId: MMSG-26386]
+Action.c(139): Notify: Parameter Substitution: parameter "categoryId_count" =  "11"
+Action.c(139): Notify: Parameter Substitution: parameter "categoryId_9" =  "REPTILES"
+Action.c(140): Notify: Saving Parameter "allProducts = REPTILES".
+Action.c(143): Notify: Parameter Substitution: parameter "categoryIdimage_count" =  "15"
+Action.c(143): Notify: Parameter Substitution: parameter "categoryIdimage_10" =  ""../images/sm_birds.gif"
+Action.c(144): Notify: Saving Parameter "allimages = "../images/sm_birds.gif".
+Action.c(154): web_url("{allproductsid}") started  	[MsgId: MMSG-26355]
+Action.c(154): Warning: The string 'allproductsid' with parameter delimiters is not a parameter.
+Action.c(154): Error -26630: HTTP Status-Code=400 (Bad Request) for "http://192.168.1.193:8084/actions/Catalog.action?viewProduct=&productId={allproductsid}"  	[MsgId: MERR-26630]
+Action.c(154): web_url("{allproductsid}") highest severity level was "ERROR", 2134 body bytes, 156 header bytes  	[MsgId: MMSG-26388]
+Ending action Action.
+Ending iteration 3.
+Starting iteration 4.
+Notify: Next row for parameter username = 4 [table  = username].
+Notify: Getting new value for parameter 'username': table = 'username.dat' column = '0' row = '4'.
+Starting action Action.
+Action.c(7): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(7): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(9): web_add_auto_header("Accept-Language") started  	[MsgId: MMSG-26355]
+Action.c(9): web_add_auto_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+Action.c(12): web_url("192.168.1.193:8084") started  	[MsgId: MMSG-26355]
+Action.c(12): Found resource "http://192.168.1.193:8084/css/jpetstore.css" in HTML "http://192.168.1.193:8084/"  	[MsgId: MMSG-26659]
+Action.c(12): web_url("192.168.1.193:8084") was successful, 7129 body bytes, 493 header bytes  	[MsgId: MMSG-26386]
+Action.c(28): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(28): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(33): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(33): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(43): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+Action.c(43): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+Action.c(52): web_url("Enter the Store") started  	[MsgId: MMSG-26355]
+Action.c(52): Notify: Saving Parameter "categoryIdimage_1 = "../images/logo-topbar.svg".
+Action.c(52): Notify: Saving Parameter "categoryId_1 = FISH".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_2 = "../images/sm_fish.gif".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_3 = "../images/separator.gif".
+Action.c(52): Notify: Saving Parameter "categoryId_2 = DOGS".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_4 = "../images/sm_dogs.gif".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_5 = "../images/separator.gif".
+Action.c(52): Notify: Saving Parameter "categoryId_3 = REPTILES".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_6 = "../images/sm_reptiles.gif".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_7 = "../images/separator.gif".
+Action.c(52): Resource "http://192.168.1.193:8084/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/logo-topbar.svg" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/cart.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/separator.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/sm_fish.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/sm_dogs.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/sm_reptiles.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Notify: Saving Parameter "categoryId_4 = CATS".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_8 = "../images/sm_cats.gif".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_9 = "../images/separator.gif".
+Action.c(52): Notify: Saving Parameter "categoryId_5 = BIRDS".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_10 = "../images/sm_birds.gif".
+Action.c(52): Notify: Saving Parameter "categoryId_6 = FISH".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_11 = "../images/fish_icon.gif".
+Action.c(52): Notify: Saving Parameter "categoryId_7 = DOGS".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_12 = "../images/dogs_icon.gif".
+Action.c(52): Notify: Saving Parameter "categoryId_8 = CATS".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_13 = "../images/cats_icon.gif".
+Action.c(52): Notify: Saving Parameter "categoryId_9 = REPTILES".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_14 = "../images/reptiles_icon.gif".
+Action.c(52): Notify: Saving Parameter "categoryId_10 = BIRDS".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_15 = "../images/birds_icon.gif".
+Action.c(52): Notify: Saving Parameter "categoryId_11 = BIRDS" shape="RECT" />\n  </map>\n  <img height="355" src="../images/splash.gif" align="middle"\n	usemap="#estoremap" width="350" /></div>\n</div>\n\n<div id="Separator".
+Action.c(52): Found resource "http://192.168.1.193:8084/images/sm_cats.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/sm_birds.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/fish_icon.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/dogs_icon.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/cats_icon.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/reptiles_icon.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/birds_icon.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Found resource "http://192.168.1.193:8084/images/splash.gif" in HTML "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26659]
+Action.c(52): Notify: Saving Parameter "jsessionid = 538D8F5D68B226772DFA9C1E7F91D936".
+Action.c(52): Notify: Saving Parameter "categoryId_count = 11".
+Action.c(52): Notify: Saving Parameter "categoryIdimage_count = 15".
+Action.c(52): web_url("Enter the Store") was successful, 63413 body bytes, 3705 header bytes  	[MsgId: MMSG-26386]
+Action.c(66): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(66): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(76): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(76): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(86): web_url("Sign In") started  	[MsgId: MMSG-26355]
+Action.c(86): Notify: Parameter Substitution: parameter "jsessionid" =  "538D8F5D68B226772DFA9C1E7F91D936"
+Action.c(86): Resource "http://192.168.1.193:8084/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(86): Resource "http://192.168.1.193:8084/images/logo-topbar.svg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(86): Resource "http://192.168.1.193:8084/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(86): Resource "http://192.168.1.193:8084/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(86): Resource "http://192.168.1.193:8084/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(86): Resource "http://192.168.1.193:8084/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(86): Resource "http://192.168.1.193:8084/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(86): Resource "http://192.168.1.193:8084/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(86): Resource "http://192.168.1.193:8084/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(86): Notify: Saving Parameter "_sourcePage = il3k3sRMwZwUWZZr0t6aTbmvWerECicZLDFfUqGvWVe8bvDe6Kyrz14wjsvnBKqdnHTLJYjhI6OJJDKHdvRp5K7CWTsUfY38V7ZMdYC9dr0=".
+Action.c(86): Notify: Saving Parameter "__fp = ZQQRuCw4D4kISg7P6DfJbzGv8pqepEqFCvbEPABMzhcHv0zdrHiopGFYXdnDg7_u".
+Action.c(86): web_url("Sign In") was successful, 3856 body bytes, 188 header bytes  	[MsgId: MMSG-26386]
+Action.c(100): web_submit_data("Account.action") started  	[MsgId: MMSG-26355]
+Action.c(100): Notify: Parameter Substitution: parameter "jsessionid" =  "538D8F5D68B226772DFA9C1E7F91D936"
+Action.c(100): Notify: Parameter Substitution: parameter "username" =  "jesmeen"
+Action.c(100): Notify: Parameter Substitution: parameter "_sourcePage" =  "il3k3sRMwZwUWZZr0t6aTbmvWerECicZLDFfUqGvWVe8bvDe6Kyrz14wjsvnBKqdnHTLJYjhI6OJJDKHdvRp5K7CWTsUfY38V7ZMdYC9dr0="
+Action.c(100): Notify: Parameter Substitution: parameter "__fp" =  "ZQQRuCw4D4kISg7P6DfJbzGv8pqepEqFCvbEPABMzhcHv0zdrHiopGFYXdnDg7_u"
+Action.c(100): Redirecting "http://192.168.1.193:8084/actions/Account.action" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(100): To location "http://192.168.1.193:8084/actions/Catalog.action"  	[MsgId: MMSG-26693]
+Action.c(100): Resource "http://192.168.1.193:8084/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/logo-topbar.svg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/fish_icon.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/dogs_icon.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/cats_icon.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/reptiles_icon.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/birds_icon.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.193:8084/images/splash.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): web_submit_data("Account.action") was successful, 4908 body bytes, 369 header bytes  	[MsgId: MMSG-26386]
+Action.c(123): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(123): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(129): web_url("{allimages}") started  	[MsgId: MMSG-26355]
+Action.c(129): Resource "http://192.168.1.193:8084/css/jpetstore.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(129): Resource "http://192.168.1.193:8084/images/logo-topbar.svg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(129): Resource "http://192.168.1.193:8084/images/cart.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(129): Resource "http://192.168.1.193:8084/images/separator.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(129): Resource "http://192.168.1.193:8084/images/sm_fish.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(129): Resource "http://192.168.1.193:8084/images/sm_dogs.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(129): Resource "http://192.168.1.193:8084/images/sm_reptiles.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(129): Resource "http://192.168.1.193:8084/images/sm_cats.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(129): Resource "http://192.168.1.193:8084/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(129): Notify: Saving Parameter "productId_1 = FI-SW-01".
+Action.c(129): Notify: Saving Parameter "productId_2 = FI-SW-02".
+Action.c(129): Notify: Saving Parameter "productId_3 = FI-FW-01".
+Action.c(129): Notify: Saving Parameter "productId_4 = FI-FW-02".
+Action.c(129): Notify: Saving Parameter "productId_count = 4".
+Action.c(129): web_url("{allimages}") was successful, 3828 body bytes, 188 header bytes  	[MsgId: MMSG-26386]
+Action.c(139): Notify: Parameter Substitution: parameter "categoryId_count" =  "11"
+Action.c(139): Notify: Parameter Substitution: parameter "categoryId_3" =  "REPTILES"
+Action.c(140): Notify: Saving Parameter "allProducts = REPTILES".
+Action.c(143): Notify: Parameter Substitution: parameter "categoryIdimage_count" =  "15"
+Action.c(143): Notify: Parameter Substitution: parameter "categoryIdimage_11" =  ""../images/fish_icon.gif"
+Action.c(144): Notify: Saving Parameter "allimages = "../images/fish_icon.gif".
+Action.c(154): web_url("{allproductsid}") started  	[MsgId: MMSG-26355]
+Action.c(154): Warning: The string 'allproductsid' with parameter delimiters is not a parameter.
+Action.c(154): Error -26630: HTTP Status-Code=400 (Bad Request) for "http://192.168.1.193:8084/actions/Catalog.action?viewProduct=&productId={allproductsid}"  	[MsgId: MERR-26630]
+Action.c(154): web_url("{allproductsid}") highest severity level was "ERROR", 2134 body bytes, 156 header bytes  	[MsgId: MMSG-26388]
+Ending action Action.
+Ending iteration 4.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Vuser 0 (thread 95516), ended OK."

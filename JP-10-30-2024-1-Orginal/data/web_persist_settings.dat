@@ -1,0 +1,13 @@
+[StartRecordingGMT]
+StartRecordingGMT_1=2024/10/30 12:26:13
+StartRecordingIsDst_1=1
+StartRecordingGMT_2=2024/10/30 12:31:39
+StartRecordingIsDst_2=1
+StartRecordingGMT_3=2024/10/30 12:36:26
+StartRecordingIsDst_3=1
+StartRecordingGMT_4=2024/10/30 12:41:12
+StartRecordingIsDst_4=1
+[User-Agent]
+User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; Trident/7.0; rv:11.0) like Gecko
+[Security]
+UsingPersistForAuthentication=1

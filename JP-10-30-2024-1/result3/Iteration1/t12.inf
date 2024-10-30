@@ -1,0 +1,13 @@
+[t12]
+SnapshotXmlFile=snapshot_9.xml
+ContentType=text/html
+StepName=Submit Data: Order.action
+Total=1
+FileName1=t12.html
+RequestHeaderFile=t12_RequestHeader.txt
+ResponseHeaderFile=t12_ResponseHeader.txt
+RawStepEndTime=1730294736081
+RawStepName=Order.action
+RequestBodyFile=t12_RequestBody.txt
+RawStepStartTime=1730294736071
+URL1=http://192.168.1.193:8084/actions/Order.action

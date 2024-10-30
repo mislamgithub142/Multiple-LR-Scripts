@@ -1,0 +1,247 @@
+****** Start Log Message ******
+Web Recorder version : 2024.3.0.528 
+Recording Mode: HTML-based script containing explicit URLs only
+Recording headers in list:
+	accept-language
+	x-gwt-permutation
+Not excluding content types
+Do not record this content types as a resource:
+	text/html
+	application/json
+Do not reset context between actions
+Do not record non-HTML elements
+Protocol Type: Multi-QTWeb
+
+$$$$$$ End Log Message $$$$$$
+
+Code generation version: 2024.3.0.528
+
+****** Analyze segments filter initialization ******
+[Traffic Filtering] Filtering ssl.gstatic.com
+****** Request Header For Transaction With Id 4095 ******
+GET https://ssl.gstatic.com/docs/common/netcheck.gif?zx=e74m1joef1ex HTTP/1.1
+sec-ch-ua-platform: "Windows"
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+sec-ch-ua: "Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"
+sec-ch-ua-mobile: ?0
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+X-Client-Data: CKq1yQEIk7bJAQiktskBCKmdygEIk+PKAQiVocsBCOyYzQEIhaDNAQj9ws4BCJPGzgEIp8jOAQiYys4B
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: https://docs.google.com/
+Accept-Encoding: gzip, deflate, zstd
+Accept-Language: en-US,en;q=0.9
+Host: ssl.gstatic.com
+Connection: Keep-Alive
+
+
+$$$$$$ Request Header For Transaction With Id 4095 Ended $$$$$$
+
+****** Response Header For Transaction With Id 4095 ******
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Content-Type: image/gif
+Content-Security-Policy-Report-Only: require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/docs
+Cross-Origin-Resource-Policy: cross-origin
+Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to="docs"
+Report-To: {"group":"docs","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/docs"}]}
+Content-Length: 43
+Date: Tue, 29 Oct 2024 20:44:00 GMT
+Pragma: no-cache
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+Cache-Control: no-cache, no-store, must-revalidate
+Last-Modified: Thu, 02 Nov 2023 22:48:00 GMT
+X-Content-Type-Options: nosniff
+Server: sffe
+X-XSS-Protection: 0
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+
+$$$$$$ Response Header For Transaction With Id 4095 Ended $$$$$$
+
+[Traffic Filtering] Filtering docs.google.com
+****** Request Header For Transaction With Id 4100 ******
+GET https://docs.google.com/offline/common/serviceworker.js?ouid=u192a8740edb125c7&oucvi=true HTTP/1.1
+Cache-Control: max-age=0
+Accept: */*
+Service-Worker: script
+X-Browser-Channel: stable
+X-Browser-Year: 2024
+X-Browser-Validation: QTcFh+5ZedCCidQkKanqiUwPHQo=
+X-Browser-Copyright: Copyright 2024 Google LLC. All rights reserved.
+X-Client-Data: CKq1yQEIk7bJAQiktskBCKmdygEIk+PKAQiVocsBCOyYzQEIhaDNAQisns4BCP2lzgEI47rOAQj7vs4BCP3CzgEIosTOAQi8xc4BCJPGzgEIvsfOAQinyM4BCJjKzgEIl8vOAQjEzM4BCMbMzgEYnbHOARjEvc4BGMzJzgEYgMrOAQ==
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: same-origin
+Sec-Fetch-Dest: serviceworker
+Referer: https://docs.google.com/offline/common/serviceworker.js?ouid=u192a8740edb125c7&oucvi=true
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: OSID=g.a000mggzGDoXeN3owLDL0v3E8ypM1_1aeqLzhwgz6LSfQL9y6XhkvfFpHRCYgxm6Uwolk-NHfwACgYKAZgSARISFQHGX2MiK_scNB9zmN9ehLPs7NzzpRoVAUF8yKpqp9-jBAMSz9s_wp8CJPMD0076; __Secure-OSID=g.a000mggzGDoXeN3owLDL0v3E8ypM1_1aeqLzhwgz6LSfQL9y6XhkKjKfygO0wrnVEMdZgXwcZAACgYKAfgSARISFQHGX2MiwIFDVfTwdr8KH7-xS7BgrRoVAUF8yKr2Q8iOCrlZ5TlqH8eIfvAy0076; SEARCH_SAMESITE=CgQItZwB; HSID=AwB6eF5Jhk4Ah2Iua; SSID=AbAgJCM4w2NUbV8pd; APISID=QH2oZNn-t6SKhpun/AmehGQzxPlhuB_Ttw; SAPISID=IuiNePLCmoUVG4lA/A_Kx-hUm8SqeumRsv; __Secure-1PAPISID=IuiNePLCmoUVG4lA/A_Kx-hUm8SqeumRsv; __Secure-3PAPISID=IuiNePLCmoUVG4lA/A_Kx-hUm8SqeumRsv; SID=g.a000pggzGO0GCbx42eH9Fo76LRS6O3P5t5ibcU4NpR_iRbT6kDWKCyOGBJQUxAh4jVHE0YPyJgACgYKAZcSARISFQHGX2MiH6MsYbL6kS480b0mBrFmPBoVAUF8yKoGP4diXJ77kuZu45lXnALo0076; __Secure-1PSID=g.a000pggzGO0GCbx42eH9Fo76LRS6O3P5t5ibcU4NpR_iRbT6kDWKEdyoOTFPv4yiodo5ta34eQACgYKAboSARISFQHGX2MiO_8AGq3X6f1KRhgn7JwCzRoVAUF8yKrOHwVEAYQO0W7AoPya9QbD0076; __Secure-3PSID=g.a000pggzGO0GCbx42eH9Fo76LRS6O3P5t5ibcU4NpR_iRbT6kDWKldFPdkgmVr2UK7cpCRAfoQACgYKAVQSARISFQHGX2MiYjSivSHlMXKMLB5xHlylzhoVAUF8yKrwMBIbBvdQPo4-WZbgAz3Z0076; AEC=AVYB7crqSJoqPGWw9Hx6EBkNXvDkvxKnIFETALVXgAasJ3fyERm_6-Jmtw; __Secure-1PSIDTS=sidts-CjEBQT4rX-V1WNgypP_WV_0L9axjKwAFxPJ0ZuLlf1PGnrVWcCCi2llUvxDY4M47HkegEAA; __Secure-3PSIDTS=sidts-CjEBQT4rX-V1WNgypP_WV_0L9axjKwAFxPJ0ZuLlf1PGnrVWcCCi2llUvxDY4M47HkegEAA; NID=518=D1Al-dGIiJNsOlqYPHLFp6ajhmqIo9J1tBdoJMbSPI1s1Q8ZwFhgUKU8mjFUig-AbMNmhbujq6p6_Z2d8fGbpazu4p7QOTKRU10dGOh34jA9hC2gctcCzdOlSkaCZR90Zv12rE3hDZLJp_Opl1eInRGzYNUbcAbeUGHdajNIMjZQDbNU2DpmRtGQFElmcJG0SJH14iS6AOUEOVAm6UXaOvLKr-PVeV4TZHiRQ_hmzaeTpxTtDbpFmAvhQD6n_dKS4hfIKWGpcS3pc9A7NnC7hyHx6pDc-XRmIFj9vKvU2CgIdabfCtV0ieaRlw3yUiV_w9ey1_TY9Tavt1X7FDEbVrUvVs8NNhYT4mR7G112wwOubPUhhOBMnLdeNzZWiU2fnxIZq1z5vtR5jVgSH6GYQxQ5jBxA8dkorPOVO5nGj5_Ozp2Yvl2RzWpTh9vUXBEkEsMfprcHRm8FajuCB6wX3gP60I_8eZYOhQ95gqXZcKm33y9MVBEkzvNdZpmexxOgfDjVdL1mlnRx-Ngzw9NHFtYDNvwW2uK2wv01-ttR01NwBCZDyUzuNTA46gO-4-T4Pg_uXY90-iRUmn7PNDfQ_Y0jKUIBKlX--9eez9LmbRFnrxIxcc_jO389ejWFNiUjRRAwXAAJQKrmTketq3EcIpaGR6IzZkBh4iVqByCGcBnf46CQHLkiJlnQuAAsAoVYgWMUuoifjZQ7RhtGV76Hxr8IdxfR3kqkSGvlg5SIs8J8y-bKxRfQOGlYPWwYHxrSyQH7Ji9E1JapFfiaolGXxRoXPwmx6WGJrFyb8Blk3_WQHa8kCfYIu6P0PXfSjI1mZefNMH0flcepJ03JbjGJ0czhgO0v4otFBHrv; SIDCC=AKEyXzX7BW-LJRhlBZXBHFzfOnVzl_NbKwOEmSwYwmoGYal1Fgj-lcI0Dn2wLztCr0aj32SakIU; __Secure-1PSIDCC=AKEyXzVj4VAmxpOpmUfO-geP9wUK4Y5nW3IPMfKn0Lq9rejk0aO9NYlFP4GGE9AZeiLYR7vOUa2-; __Secure-3PSIDCC=AKEyXzUJAG_uDHmKgYT8RK7MZJ76Id2z36tPtEr3XkKpIg-qI8AhAUhVeiYFCsFvvsKz7wKhV7M
+Host: docs.google.com
+Connection: Keep-Alive
+
+
+$$$$$$ Request Header For Transaction With Id 4100 Ended $$$$$$
+
+****** Response Header For Transaction With Id 4100 ******
+HTTP/1.1 302 Moved Temporarily
+Content-Type: text/html; charset=UTF-8
+Location: https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&osid=1&continue=https://docs.google.com/offline/common/serviceworker.js?ouid%3Du192a8740edb125c7%26oucvi%3Dtrue&followup=https://docs.google.com/offline/common/serviceworker.js?ouid%3Du192a8740edb125c7%26oucvi%3Dtrue&authuser=0
+Content-Encoding: gzip
+Date: Tue, 29 Oct 2024 20:44:04 GMT
+Expires: Tue, 29 Oct 2024 20:44:04 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+
+$$$$$$ Response Header For Transaction With Id 4100 Ended $$$$$$
+
+****** Response Body For Transaction With Id 4100 ******
+GIF89a
+$$$$$$ Response Body For Transaction With Id 4100 Ended $$$$$$
+
+[Traffic Filtering] Filtering ssl.gstatic.com
+****** Request Header For Transaction With Id 4106 ******
+GET https://ssl.gstatic.com/ui/v1/icons/mail/images/cleardot.gif?zx=2qo5i5wbilmo HTTP/1.1
+sec-ch-ua-full-version-list: "Chromium";v="130.0.6723.70", "Google Chrome";v="130.0.6723.70", "Not?A_Brand";v="99.0.0.0"
+sec-ch-ua-platform: "Windows"
+sec-ch-ua: "Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"
+sec-ch-ua-bitness: "64"
+sec-ch-ua-model: ""
+sec-ch-ua-mobile: ?0
+sec-ch-ua-form-factors: "Desktop"
+sec-ch-ua-wow64: ?0
+sec-ch-ua-arch: "x86"
+sec-ch-ua-full-version: "130.0.6723.70"
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+sec-ch-ua-platform-version: "15.0.0"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+X-Client-Data: CKq1yQEIk7bJAQiktskBCKmdygEIk+PKAQiVocsBCOyYzQEIhaDNAQisns4BCP2lzgEI47rOAQj7vs4BCP3CzgEIosTOAQi8xc4BCJPGzgEIvsfOAQinyM4BCJjKzgEIl8vOAQjEzM4BCMbMzgEYnbHOARjEvc4BGMzJzgEYgMrOAQ==
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: https://mail.google.com/
+Accept-Encoding: gzip, deflate, zstd
+Accept-Language: en-US,en;q=0.9
+Host: ssl.gstatic.com
+
+
+$$$$$$ Request Header For Transaction With Id 4106 Ended $$$$$$
+
+****** Response Header For Transaction With Id 4106 ******
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Content-Type: image/gif
+Content-Security-Policy-Report-Only: require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/gmail
+Cross-Origin-Resource-Policy: cross-origin
+Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to="gmail"
+Report-To: {"group":"gmail","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/gmail"}]}
+Content-Length: 43
+Date: Tue, 29 Oct 2024 20:44:47 GMT
+Pragma: no-cache
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+Cache-Control: no-cache, no-store, must-revalidate
+Last-Modified: Tue, 03 Mar 2020 20:15:00 GMT
+X-Content-Type-Options: nosniff
+Server: sffe
+X-XSS-Protection: 0
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+
+$$$$$$ Response Header For Transaction With Id 4106 Ended $$$$$$
+
+[Traffic Filtering] Filtering ssl.gstatic.com
+****** Request Header For Transaction With Id 4111 ******
+GET https://ssl.gstatic.com/docs/common/netcheck.gif?zx=wtcdfs5n7imq HTTP/1.1
+sec-ch-ua-platform: "Windows"
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+sec-ch-ua: "Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"
+sec-ch-ua-mobile: ?0
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+X-Client-Data: CKq1yQEIk7bJAQiktskBCKmdygEIk+PKAQiVocsBCOyYzQEIhaDNAQj9ws4BCJPGzgEIp8jOAQiYys4B
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: https://docs.google.com/
+Accept-Encoding: gzip, deflate, zstd
+Accept-Language: en-US,en;q=0.9
+Host: ssl.gstatic.com
+
+
+$$$$$$ Request Header For Transaction With Id 4111 Ended $$$$$$
+
+****** Response Header For Transaction With Id 4111 ******
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Content-Type: image/gif
+Content-Security-Policy-Report-Only: require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/docs
+Cross-Origin-Resource-Policy: cross-origin
+Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to="docs"
+Report-To: {"group":"docs","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/docs"}]}
+Content-Length: 43
+Date: Tue, 29 Oct 2024 20:44:55 GMT
+Pragma: no-cache
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+Cache-Control: no-cache, no-store, must-revalidate
+Last-Modified: Thu, 02 Nov 2023 22:48:00 GMT
+X-Content-Type-Options: nosniff
+Server: sffe
+X-XSS-Protection: 0
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+
+$$$$$$ Response Header For Transaction With Id 4111 Ended $$$$$$
+
+[Traffic Filtering] Filtering docs.google.com
+****** Request Header For Transaction With Id 4116 ******
+GET https://docs.google.com/offline/common/serviceworker.js?ouid=u192a8740edb125c7&oucvi=true HTTP/1.1
+Cache-Control: max-age=0
+Accept: */*
+Service-Worker: script
+X-Browser-Channel: stable
+X-Browser-Year: 2024
+X-Browser-Validation: QTcFh+5ZedCCidQkKanqiUwPHQo=
+X-Browser-Copyright: Copyright 2024 Google LLC. All rights reserved.
+X-Client-Data: CKq1yQEIk7bJAQiktskBCKmdygEIk+PKAQiVocsBCOyYzQEIhaDNAQisns4BCP2lzgEI47rOAQj7vs4BCP3CzgEIosTOAQi8xc4BCJPGzgEIvsfOAQinyM4BCJjKzgEIl8vOAQjEzM4BCMbMzgEYnbHOARjEvc4BGMzJzgEYgMrOAQ==
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: same-origin
+Sec-Fetch-Dest: serviceworker
+Referer: https://docs.google.com/offline/common/serviceworker.js?ouid=u192a8740edb125c7&oucvi=true
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, zstd
+Accept-Language: en-US,en;q=0.9
+Cookie: OSID=g.a000mggzGDoXeN3owLDL0v3E8ypM1_1aeqLzhwgz6LSfQL9y6XhkvfFpHRCYgxm6Uwolk-NHfwACgYKAZgSARISFQHGX2MiK_scNB9zmN9ehLPs7NzzpRoVAUF8yKpqp9-jBAMSz9s_wp8CJPMD0076; __Secure-OSID=g.a000mggzGDoXeN3owLDL0v3E8ypM1_1aeqLzhwgz6LSfQL9y6XhkKjKfygO0wrnVEMdZgXwcZAACgYKAfgSARISFQHGX2MiwIFDVfTwdr8KH7-xS7BgrRoVAUF8yKr2Q8iOCrlZ5TlqH8eIfvAy0076; SEARCH_SAMESITE=CgQItZwB; HSID=AwB6eF5Jhk4Ah2Iua; SSID=AbAgJCM4w2NUbV8pd; APISID=QH2oZNn-t6SKhpun/AmehGQzxPlhuB_Ttw; SAPISID=IuiNePLCmoUVG4lA/A_Kx-hUm8SqeumRsv; __Secure-1PAPISID=IuiNePLCmoUVG4lA/A_Kx-hUm8SqeumRsv; __Secure-3PAPISID=IuiNePLCmoUVG4lA/A_Kx-hUm8SqeumRsv; SID=g.a000pggzGO0GCbx42eH9Fo76LRS6O3P5t5ibcU4NpR_iRbT6kDWKCyOGBJQUxAh4jVHE0YPyJgACgYKAZcSARISFQHGX2MiH6MsYbL6kS480b0mBrFmPBoVAUF8yKoGP4diXJ77kuZu45lXnALo0076; __Secure-1PSID=g.a000pggzGO0GCbx42eH9Fo76LRS6O3P5t5ibcU4NpR_iRbT6kDWKEdyoOTFPv4yiodo5ta34eQACgYKAboSARISFQHGX2MiO_8AGq3X6f1KRhgn7JwCzRoVAUF8yKrOHwVEAYQO0W7AoPya9QbD0076; __Secure-3PSID=g.a000pggzGO0GCbx42eH9Fo76LRS6O3P5t5ibcU4NpR_iRbT6kDWKldFPdkgmVr2UK7cpCRAfoQACgYKAVQSARISFQHGX2MiYjSivSHlMXKMLB5xHlylzhoVAUF8yKrwMBIbBvdQPo4-WZbgAz3Z0076; AEC=AVYB7crqSJoqPGWw9Hx6EBkNXvDkvxKnIFETALVXgAasJ3fyERm_6-Jmtw; __Secure-1PSIDTS=sidts-CjEBQT4rX-V1WNgypP_WV_0L9axjKwAFxPJ0ZuLlf1PGnrVWcCCi2llUvxDY4M47HkegEAA; __Secure-3PSIDTS=sidts-CjEBQT4rX-V1WNgypP_WV_0L9axjKwAFxPJ0ZuLlf1PGnrVWcCCi2llUvxDY4M47HkegEAA; NID=518=D1Al-dGIiJNsOlqYPHLFp6ajhmqIo9J1tBdoJMbSPI1s1Q8ZwFhgUKU8mjFUig-AbMNmhbujq6p6_Z2d8fGbpazu4p7QOTKRU10dGOh34jA9hC2gctcCzdOlSkaCZR90Zv12rE3hDZLJp_Opl1eInRGzYNUbcAbeUGHdajNIMjZQDbNU2DpmRtGQFElmcJG0SJH14iS6AOUEOVAm6UXaOvLKr-PVeV4TZHiRQ_hmzaeTpxTtDbpFmAvhQD6n_dKS4hfIKWGpcS3pc9A7NnC7hyHx6pDc-XRmIFj9vKvU2CgIdabfCtV0ieaRlw3yUiV_w9ey1_TY9Tavt1X7FDEbVrUvVs8NNhYT4mR7G112wwOubPUhhOBMnLdeNzZWiU2fnxIZq1z5vtR5jVgSH6GYQxQ5jBxA8dkorPOVO5nGj5_Ozp2Yvl2RzWpTh9vUXBEkEsMfprcHRm8FajuCB6wX3gP60I_8eZYOhQ95gqXZcKm33y9MVBEkzvNdZpmexxOgfDjVdL1mlnRx-Ngzw9NHFtYDNvwW2uK2wv01-ttR01NwBCZDyUzuNTA46gO-4-T4Pg_uXY90-iRUmn7PNDfQ_Y0jKUIBKlX--9eez9LmbRFnrxIxcc_jO389ejWFNiUjRRAwXAAJQKrmTketq3EcIpaGR6IzZkBh4iVqByCGcBnf46CQHLkiJlnQuAAsAoVYgWMUuoifjZQ7RhtGV76Hxr8IdxfR3kqkSGvlg5SIs8J8y-bKxRfQOGlYPWwYHxrSyQH7Ji9E1JapFfiaolGXxRoXPwmx6WGJrFyb8Blk3_WQHa8kCfYIu6P0PXfSjI1mZefNMH0flcepJ03JbjGJ0czhgO0v4otFBHrv; SIDCC=AKEyXzX7BW-LJRhlBZXBHFzfOnVzl_NbKwOEmSwYwmoGYal1Fgj-lcI0Dn2wLztCr0aj32SakIU; __Secure-1PSIDCC=AKEyXzVj4VAmxpOpmUfO-geP9wUK4Y5nW3IPMfKn0Lq9rejk0aO9NYlFP4GGE9AZeiLYR7vOUa2-; __Secure-3PSIDCC=AKEyXzUJAG_uDHmKgYT8RK7MZJ76Id2z36tPtEr3XkKpIg-qI8AhAUhVeiYFCsFvvsKz7wKhV7M
+Host: docs.google.com
+
+
+$$$$$$ Request Header For Transaction With Id 4116 Ended $$$$$$
+
+****** Response Header For Transaction With Id 4116 ******
+HTTP/1.1 302 Moved Temporarily
+Content-Type: text/html; charset=UTF-8
+Location: https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&osid=1&continue=https://docs.google.com/offline/common/serviceworker.js?ouid%3Du192a8740edb125c7%26oucvi%3Dtrue&followup=https://docs.google.com/offline/common/serviceworker.js?ouid%3Du192a8740edb125c7%26oucvi%3Dtrue&authuser=0
+Content-Encoding: gzip
+Date: Tue, 29 Oct 2024 20:44:56 GMT
+Expires: Tue, 29 Oct 2024 20:44:56 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+
+$$$$$$ Response Header For Transaction With Id 4116 Ended $$$$$$
+
+****** Response Body For Transaction With Id 4116 ******
+
+$$$$$$ Response Body For Transaction With Id 4116 Ended $$$$$$
+

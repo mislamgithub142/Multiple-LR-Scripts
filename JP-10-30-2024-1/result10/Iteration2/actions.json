@@ -1,0 +1,38 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: 192.168.1.193:8084",
+                "infFile": "t1.inf",
+                "time": 1730297594872
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: Enter the Store",
+                "infFile": "t3.inf",
+                "time": 1730297594897
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: Sign In",
+                "infFile": "t6.inf",
+                "time": 1730297594912
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Submit Data: Account.action",
+                "infFile": "t7.inf",
+                "time": 1730297594930
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Url: {allimages}",
+                "infFile": "t8.inf",
+                "time": 1730297594943
+            }
+        ],
+        "transactions": []
+    }
+]
