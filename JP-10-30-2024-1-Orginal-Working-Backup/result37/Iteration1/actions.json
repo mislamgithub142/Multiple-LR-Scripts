@@ -1,0 +1,152 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: {p_url}",
+                "infFile": "t1.inf",
+                "time": 1730644598542
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: Enter the Store",
+                "infFile": "t3.inf",
+                "time": 1730644598574
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: Sign In",
+                "infFile": "t6.inf",
+                "time": 1730644598601
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Submit Data: Account.action",
+                "infFile": "t7.inf",
+                "time": 1730644598627
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: {allimages}",
+                "infFile": "t8.inf",
+                "time": 1730644598644
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: FI-SW-02",
+                "infFile": "t9.inf",
+                "time": 1730644598668
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: Add to Cart",
+                "infFile": "t10.inf",
+                "time": 1730644598691
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: Proceed to Checkout",
+                "infFile": "t13.inf",
+                "time": 1730644598715
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Submit Data: Order.action",
+                "infFile": "t14.inf",
+                "time": 1730644598736
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Url: Confirm",
+                "infFile": "t15.inf",
+                "time": 1730644598764
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Url: Sign Out",
+                "infFile": "t16.inf",
+                "time": 1730644598782
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "01_WT_HomePage",
+                "rawStartTime": 1730644598467,
+                "rawEndTime": 1730644598542,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0576324462890625
+            },
+            {
+                "transactionName": "02_WT_EnterStore",
+                "rawStartTime": 1730644598542,
+                "rawEndTime": 1730644598574,
+                "thinkTime": 0.0,
+                "wastedTime": 0.009298086166381836
+            },
+            {
+                "transactionName": "03_WT_ClickLogin",
+                "rawStartTime": 1730644598577,
+                "rawEndTime": 1730644598601,
+                "thinkTime": 0.0,
+                "wastedTime": 0.00815272331237793
+            },
+            {
+                "transactionName": "04_WT_Login",
+                "rawStartTime": 1730644598601,
+                "rawEndTime": 1730644598627,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0038039684295654299
+            },
+            {
+                "transactionName": "05_WT_SelectProducts",
+                "rawStartTime": 1730644598627,
+                "rawEndTime": 1730644598644,
+                "thinkTime": 0.0,
+                "wastedTime": 0.002669095993041992
+            },
+            {
+                "transactionName": "06_WT_SelectSubProducts",
+                "rawStartTime": 1730644598645,
+                "rawEndTime": 1730644598668,
+                "thinkTime": 0.0,
+                "wastedTime": 0.002750396728515625
+            },
+            {
+                "transactionName": "07_WT_AddtoCart",
+                "rawStartTime": 1730644598669,
+                "rawEndTime": 1730644598691,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0021507740020751955
+            },
+            {
+                "transactionName": "08_WT_ProceedtoCheckOut",
+                "rawStartTime": 1730644598691,
+                "rawEndTime": 1730644598715,
+                "thinkTime": 0.0,
+                "wastedTime": 0.00735163688659668
+            },
+            {
+                "transactionName": "09_WT_ContinuewithPayment",
+                "rawStartTime": 1730644598716,
+                "rawEndTime": 1730644598737,
+                "thinkTime": 0.0,
+                "wastedTime": 0.003353595733642578
+            },
+            {
+                "transactionName": "10_WT_Confirm",
+                "rawStartTime": 1730644598737,
+                "rawEndTime": 1730644598764,
+                "thinkTime": 0.0,
+                "wastedTime": 0.002796173095703125
+            },
+            {
+                "transactionName": "11_WT_SignOut",
+                "rawStartTime": 1730644598764,
+                "rawEndTime": 1730644598782,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004410505294799805
+            }
+        ]
+    }
+]

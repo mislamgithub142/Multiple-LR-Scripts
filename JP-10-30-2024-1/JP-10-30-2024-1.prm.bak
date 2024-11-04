@@ -1,5 +1,21 @@
+[parameter:NewParam]
+Format="%lu"
+GenerateNewVal="EachOccurrence"
+MaxValue="100"
+MinValue="1"
+OriginalValue=""
+ParamName="NewParam"
+Type="Random"
+[parameter:p_randumnumber]
+Format="%lu"
+GenerateNewVal="EachOccurrence"
+MaxValue="9999"
+MinValue="1000"
+OriginalValue="999 9999 9999 9999"
+ParamName="p_randumnumber"
+Type="Random"
 [parameter:username]
-ColumnName="Col 1"
+ColumnName="username"
 Delimiter=","
 GenerateNewVal="EachIteration"
 OriginalValue=""

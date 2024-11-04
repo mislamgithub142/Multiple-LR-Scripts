@@ -1,0 +1,74 @@
+[
+    {
+        "actionName": "ForLoop",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: {p_url}",
+                "infFile": "t1.inf",
+                "time": 1730570051972
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: {p_url}",
+                "infFile": "t2.inf",
+                "time": 1730570051984
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: {p_url}",
+                "infFile": "t3.inf",
+                "time": 1730570051994
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: {p_url}",
+                "infFile": "t4.inf",
+                "time": 1730570052005
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: {p_url}",
+                "infFile": "t5.inf",
+                "time": 1730570052017
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "01_WT_HomePage",
+                "rawStartTime": 1730570051904,
+                "rawEndTime": 1730570051972,
+                "thinkTime": 0.0,
+                "wastedTime": 0.05370616912841797
+            },
+            {
+                "transactionName": "01_WT_HomePage",
+                "rawStartTime": 1730570051974,
+                "rawEndTime": 1730570051984,
+                "thinkTime": 0.0,
+                "wastedTime": 0.002535581588745117
+            },
+            {
+                "transactionName": "01_WT_HomePage",
+                "rawStartTime": 1730570051986,
+                "rawEndTime": 1730570051994,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0018024444580078126
+            },
+            {
+                "transactionName": "01_WT_HomePage",
+                "rawStartTime": 1730570051996,
+                "rawEndTime": 1730570052006,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0022797584533691408
+            },
+            {
+                "transactionName": "01_WT_HomePage",
+                "rawStartTime": 1730570052007,
+                "rawEndTime": 1730570052018,
+                "thinkTime": 0.0,
+                "wastedTime": 0.002565145492553711
+            }
+        ]
+    }
+]

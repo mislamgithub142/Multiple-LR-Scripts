@@ -1,0 +1,66 @@
+[
+    {
+        "actionName": "DowhileLoop",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: {p_url}",
+                "infFile": "t1.inf",
+                "time": 1730568021406
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: Enter the Store",
+                "infFile": "t3.inf",
+                "time": 1730568021435
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: Sign In",
+                "infFile": "t6.inf",
+                "time": 1730568021458
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Submit Data: Account.action",
+                "infFile": "t7.inf",
+                "time": 1730568021481
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Submit Data: Account.action",
+                "infFile": "t8.inf",
+                "time": 1730568021498
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Submit Data: Account.action",
+                "infFile": "t9.inf",
+                "time": 1730568021514
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "01_WT_HomePage",
+                "rawStartTime": 1730568021336,
+                "rawEndTime": 1730568021407,
+                "thinkTime": 0.0,
+                "wastedTime": 0.053998708724975589
+            },
+            {
+                "transactionName": "03_WT_ClickLogin",
+                "rawStartTime": 1730568021435,
+                "rawEndTime": 1730568021458,
+                "thinkTime": 0.0,
+                "wastedTime": 0.007838964462280274
+            },
+            {
+                "transactionName": "04_WT_Login",
+                "rawStartTime": 1730568021459,
+                "rawEndTime": 1730568021481,
+                "thinkTime": 0.0,
+                "wastedTime": 0.003112316131591797
+            }
+        ]
+    }
+]

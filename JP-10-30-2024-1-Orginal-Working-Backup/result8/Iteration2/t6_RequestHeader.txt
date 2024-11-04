@@ -1,0 +1,10 @@
+GET /actions/Account.action;jsessionid=09B45B0B55D232E22ADD6CEAD968B81F?signonForm= HTTP/1.1
+Referer: http://192.168.1.193:8084/actions/Catalog.action
+Accept-Language: en-US,en;q=0.5
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate, br
+Accept: */*
+Connection: Keep-Alive
+Host: 192.168.1.193:8084
+Cookie: JSESSIONID=09B45B0B55D232E22ADD6CEAD968B81F
+

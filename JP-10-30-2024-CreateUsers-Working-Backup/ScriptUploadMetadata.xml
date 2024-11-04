@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VugenScriptMetadata>
+  <ScriptName>JP-10-30-2024-CreateUsers-Working-Backup</ScriptName>
+  <Protocol>Web - HTTP/HTML</Protocol>
+  <ActionFiles>
+    <FileEntry Name="vuser_init.c" Filter="2" />
+    <FileEntry Name="DowhileLoop.c" Filter="2" />
+    <FileEntry Name="ForLoop.c" Filter="2" />
+    <FileEntry Name="CreateUsers.c" Filter="2" />
+    <FileEntry Name="NewusersLogin.c" Filter="2" />
+    <FileEntry Name="vuser_end.c" Filter="2" />
+  </ActionFiles>
+  <GeneralFiles>
+    <FileEntry Name="JP-10-30-2024-CreateUsers-Working-Backup.usr" Filter="4" />
+    <FileEntry Name="default.cfg" Filter="4" />
+    <FileEntry Name="default.usp" Filter="4" />
+    <FileEntry Name="JP-10-30-2024-CreateUsers-Working-Backup.prm" Filter="2" />
+    <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="LastName.dat" Filter="2" />
+    <FileEntry Name="p_url.dat" Filter="2" />
+    <FileEntry Name="NewParam.dat" Filter="2" />
+    <FileEntry Name="emailadd(1).dat" Filter="2" />
+    <FileEntry Name="createusers.dat" Filter="2" />
+    <FileEntry Name="FirstName.dat" Filter="2" />
+    <FileEntry Name="username.dat" Filter="2" />
+    <FileEntry Name="combined_JP-10-30-2024-CreateUsers-Working-Backup.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="167079211440.idx" Filter="1" />
+    <FileEntry Name="172455145440.idx" Filter="1" />
+    <FileEntry Name="198585917440.idx" Filter="1" />
+    <FileEntry Name="214190020440.idx" Filter="1" />
+    <FileEntry Name="220017850440.idx" Filter="1" />
+    <FileEntry Name="228095438440.idx" Filter="1" />
+    <FileEntry Name="71389349440.idx" Filter="1" />
+    <FileEntry Name="Bookmarks.xml" Filter="1" />
+    <FileEntry Name="Breakpoints.xml" Filter="1" />
+    <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
+    <FileEntry Name="emailadd.dat" Filter="1" />
+    <FileEntry Name="JP-10-30-2024-1-Orginal-Working.prm.bak" Filter="1" />
+    <FileEntry Name="JP-10-30-2024-1-Orginal.prm.bak" Filter="1" />
+    <FileEntry Name="JP-10-30-2024-1.prm.bak" Filter="1" />
+    <FileEntry Name="JP-10-30-2024-CreateUsers-Working-Backup.c.pickle" Filter="1" />
+    <FileEntry Name="JP-10-30-2024-CreateUsers-Working-Backup.ci" Filter="1" />
+    <FileEntry Name="JP-10-30-2024-CreateUsers-Working-Backup.prm.bak" Filter="1" />
+    <FileEntry Name="JP-10-30-2024-CreateUsers-Working.prm.bak" Filter="1" />
+    <FileEntry Name="logfile.log" Filter="1" />
+    <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv_cmd.txt" Filter="1" />
+    <FileEntry Name="options.txt" Filter="1" />
+    <FileEntry Name="output.bak" Filter="1" />
+    <FileEntry Name="output.txt" Filter="1" />
+    <FileEntry Name="OutputColoringDatabase.json" Filter="1" />
+    <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
+    <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
+    <FileEntry Name="TransactionsData.db" Filter="1" />
+    <FileEntry Name="UserTasks.xml" Filter="1" />
+    <FileEntry Name="data\" Filter="1" />
+    <FileEntry Name="result1\" Filter="1" />
+  </GeneralFiles>
+</VugenScriptMetadata>

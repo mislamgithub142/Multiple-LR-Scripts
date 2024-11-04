@@ -1,0 +1,44 @@
+[
+    {
+        "actionName": "CreateUsers",
+        "steps": [
+            {
+                "stepId": "STEP61",
+                "stepName": "Url: 192.168.1.193:8084",
+                "infFile": "t1.inf",
+                "time": 1730573996797
+            },
+            {
+                "stepId": "STEP62",
+                "stepName": "Custom Request: spocs",
+                "infFile": "t2.inf",
+                "time": 1730573997031
+            },
+            {
+                "stepId": "STEP63",
+                "stepName": "Url: Catalog.action",
+                "infFile": "t4.inf",
+                "time": 1730573997064
+            },
+            {
+                "stepId": "STEP64",
+                "stepName": "Url: Sign In",
+                "infFile": "t5.inf",
+                "time": 1730573997089
+            },
+            {
+                "stepId": "STEP65",
+                "stepName": "Url: Register Now!",
+                "infFile": "t8.inf",
+                "time": 1730573997116
+            },
+            {
+                "stepId": "STEP66",
+                "stepName": "Submit Data: Account.action",
+                "infFile": "t9.inf",
+                "time": 1730573997150
+            }
+        ],
+        "transactions": []
+    }
+]

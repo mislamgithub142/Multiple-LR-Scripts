@@ -1,0 +1,8 @@
+Error: CCI compilation error -c:\2025-development\multiple-lr-scripts\jp-10-30-2024-1-orginal-working\\pre_cci.c: Action.c:10: error: type error in argument 1 to `web_set_max_html_param_len'; found `int' expected `pointer to const char'.	[MsgId: MERR-19799]
+Error: CCI compilation error -c:\2025-development\multiple-lr-scripts\jp-10-30-2024-1-orginal-working\\pre_cci.c: Action.c:57: warning: unrecognized character escape sequence `\='.	[MsgId: MERR-19799]
+Error: CCI compilation error -c:\2025-development\multiple-lr-scripts\jp-10-30-2024-1-orginal-working\\pre_cci.c: Action.c:287: warning: unrecognized character escape sequence `\<'.	[MsgId: MERR-19799]
+Error: CCI compilation error -c:\2025-development\multiple-lr-scripts\jp-10-30-2024-1-orginal-working\\pre_cci.c: Action.c:287: warning: unrecognized character escape sequence `\='.	[MsgId: MERR-19799]
+Error: CCI compilation error -c:\2025-development\multiple-lr-scripts\jp-10-30-2024-1-orginal-working\\pre_cci.c: c:\\2025-development\\multiple-lr-scripts\\jp-10-30-2024-1-orginal-working\\\\combined_JP-10-30-2024-1-Orginal-Working.c:9: error: 1 errors, not writing pre_cci.ci.	[MsgId: MERR-19799]
+Error: Vuser compilation failed. Please set CCIDebug to Off in CCI section of mdrv.dat file.	[MsgId: MERR-19797]
+Warning: Extension cciext.dll reports error -19797 on call to function ExtPerProcessInitialize	[MsgId: MWAR-10485]
+Error: Thread Context: Call to service of the driver failed, reason - thread context wasn't initialized on this thread.	[MsgId: MERR-10176]

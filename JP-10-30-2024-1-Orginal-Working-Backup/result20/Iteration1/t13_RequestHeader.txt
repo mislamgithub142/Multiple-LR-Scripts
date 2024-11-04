@@ -1,0 +1,10 @@
+GET /actions/Order.action?newOrderForm= HTTP/1.1
+Referer: http://192.168.1.193:8084/actions/Cart.action?addItemToCart=&workingItemId=EST-3
+Accept-Language: en-US,en;q=0.5
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate, br
+Accept: */*
+Connection: Keep-Alive
+Host: 192.168.1.193:8084
+Cookie: JSESSIONID=D26FCFEC4B54F1CFB2FF2749213FE326
+

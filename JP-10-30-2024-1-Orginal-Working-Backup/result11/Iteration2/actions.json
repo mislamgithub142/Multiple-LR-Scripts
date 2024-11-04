@@ -1,0 +1,74 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP12",
+                "stepName": "Url: 192.168.1.193:8084",
+                "infFile": "t1.inf",
+                "time": 1730498249190
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Url: Enter the Store",
+                "infFile": "t3.inf",
+                "time": 1730498249213
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Url: Sign In",
+                "infFile": "t6.inf",
+                "time": 1730498249230
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Submit Data: Account.action",
+                "infFile": "t7.inf",
+                "time": 1730498249249
+            },
+            {
+                "stepId": "STEP16",
+                "stepName": "Url: {allimages}",
+                "infFile": "t8.inf",
+                "time": 1730498249264
+            },
+            {
+                "stepId": "STEP17",
+                "stepName": "Url: FI-SW-02",
+                "infFile": "t9.inf",
+                "time": 1730498249280
+            },
+            {
+                "stepId": "STEP18",
+                "stepName": "Url: Add to Cart",
+                "infFile": "t10.inf",
+                "time": 1730498249299
+            },
+            {
+                "stepId": "STEP19",
+                "stepName": "Url: Proceed to Checkout",
+                "infFile": "t11.inf",
+                "time": 1730498249315
+            },
+            {
+                "stepId": "STEP20",
+                "stepName": "Submit Data: Order.action",
+                "infFile": "t12.inf",
+                "time": 1730498249330
+            },
+            {
+                "stepId": "STEP21",
+                "stepName": "Url: Confirm",
+                "infFile": "t13.inf",
+                "time": 1730498249348
+            },
+            {
+                "stepId": "STEP22",
+                "stepName": "Url: Sign Out",
+                "infFile": "t14.inf",
+                "time": 1730498249367
+            }
+        ],
+        "transactions": []
+    }
+]

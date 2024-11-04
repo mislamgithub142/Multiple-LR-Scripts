@@ -1,0 +1,13 @@
+[t10]
+SnapshotXmlFile=snapshot_7.xml
+ContentType=text/html
+StepName=Url: Sign Out
+Total=1
+FileName1=t10.html
+RequestHeaderFile=t10_RequestHeader.txt
+ResponseHeaderFile=t10_ResponseHeader.txt
+RawStepEndTime=1730567871342
+RawStepName=Sign Out
+RequestBodyFile=t10_RequestBody.txt
+RawStepStartTime=1730567871332
+URL1=http://192.168.1.193:8084/actions/Catalog.action

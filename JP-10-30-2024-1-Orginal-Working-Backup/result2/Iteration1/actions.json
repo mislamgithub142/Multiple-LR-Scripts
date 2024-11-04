@@ -1,0 +1,79 @@
+[
+    {
+        "actionName": "DowhileLoop",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: {p_url}",
+                "infFile": "t1.inf",
+                "time": 1730567871213
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: Enter the Store",
+                "infFile": "t3.inf",
+                "time": 1730567871247
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: Sign In",
+                "infFile": "t6.inf",
+                "time": 1730567871270
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Submit Data: Account.action",
+                "infFile": "t7.inf",
+                "time": 1730567871293
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Submit Data: Account.action",
+                "infFile": "t8.inf",
+                "time": 1730567871313
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Submit Data: Account.action",
+                "infFile": "t9.inf",
+                "time": 1730567871331
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: Sign Out",
+                "infFile": "t10.inf",
+                "time": 1730567871349
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "01_WT_HomePage",
+                "rawStartTime": 1730567871143,
+                "rawEndTime": 1730567871213,
+                "thinkTime": 0.0,
+                "wastedTime": 0.05348610877990723
+            },
+            {
+                "transactionName": "03_WT_ClickLogin",
+                "rawStartTime": 1730567871247,
+                "rawEndTime": 1730567871270,
+                "thinkTime": 0.0,
+                "wastedTime": 0.007541656494140625
+            },
+            {
+                "transactionName": "04_WT_Login",
+                "rawStartTime": 1730567871270,
+                "rawEndTime": 1730567871331,
+                "thinkTime": 0.0,
+                "wastedTime": 0.00798654556274414
+            },
+            {
+                "transactionName": "11_WT_SignOut",
+                "rawStartTime": 1730567871332,
+                "rawEndTime": 1730567871349,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0028111934661865236
+            }
+        ]
+    }
+]

@@ -1,0 +1,11 @@
+[t3]
+FileName1=t3.htm
+URL1=http://192.168.1.193:8084/actions/Account.action;jsessionid=E36A3B0D9EBDE976CB5CE9B36C497F73?signonForm=
+Total=1
+RequestHeaderFile=t3_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t3_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_3.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

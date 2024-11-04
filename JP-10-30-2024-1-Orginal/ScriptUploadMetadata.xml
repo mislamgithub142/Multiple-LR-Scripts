@@ -13,15 +13,18 @@
     <FileEntry Name="default.usp" Filter="4" />
     <FileEntry Name="JP-10-30-2024-1-Orginal.prm" Filter="2" />
     <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="NewParam.dat" Filter="2" />
     <FileEntry Name="username.dat" Filter="2" />
     <FileEntry Name="combined_JP-10-30-2024-1-Orginal.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
     <FileEntry Name="127195262440.idx" Filter="1" />
+    <FileEntry Name="144189054440.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
     <FileEntry Name="JP-10-30-2024-1-Orginal.c.pickle" Filter="1" />
     <FileEntry Name="JP-10-30-2024-1-Orginal.ci" Filter="1" />
+    <FileEntry Name="JP-10-30-2024-1-Orginal.prm.bak" Filter="1" />
     <FileEntry Name="JP-10-30-2024-1.prm.bak" Filter="1" />
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
@@ -36,6 +39,8 @@
     <FileEntry Name="UserTasks.xml" Filter="1" />
     <FileEntry Name="data\" Filter="1" />
     <FileEntry Name="result1\" Filter="1" />
+    <FileEntry Name="result10\" Filter="1" />
+    <FileEntry Name="result11\" Filter="1" />
     <FileEntry Name="result2\" Filter="1" />
     <FileEntry Name="result3\" Filter="1" />
     <FileEntry Name="result4\" Filter="1" />

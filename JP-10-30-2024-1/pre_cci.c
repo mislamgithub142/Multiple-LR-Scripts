@@ -2627,8 +2627,9 @@ Action()
 {
    
    char  *allimages;
-   char  *allproductsid;
-   char *allProducts;
+   char  *allProducts;
+   char *allsubproducts;
+   char *allworkingitems;
 	web_set_sockets_option("SSL_VERSION", "AUTO");
 
 	web_add_auto_header("Accept-Language", 
@@ -2743,12 +2744,12 @@ Action()
 	 
 	
 	
-	
-	
-		web_reg_save_param("productId",
+	web_reg_save_param("subproductId",
                    "LB=productId\=",
                   "RB=\">",
                    "ord=all","LAST");
+	
+		
 
 	
 	web_url("{allimages}", 
@@ -2774,9 +2775,18 @@ Action()
 	
 
 	 
+	
+	
+	 
+	
+	
+	web_reg_save_param("workingItemId",
+                   "LB=workingItemId\=",
+                  "RB=\"",
+                   "ord=all","LAST");
 
 	
-	web_url("{allproductsid}", 
+	web_url("{allsubproducts}", 
 		"URL=http://192.168.1.193:8084/actions/Catalog.action?viewProduct=&productId={allproductsid}", 
 		"TargetFrame=", 
 		"Resource=0", 
@@ -2787,8 +2797,8 @@ Action()
 		"LAST");
 	
 	
-	allproductsid=lr_paramarr_random("productId");
-	lr_save_string(allproductsid,"allproductsid");
+	allsubproducts=lr_paramarr_random("subproductId");
+	lr_save_string(allsubproducts,"allsubproducts");
 	
 	lr_think_time(10);
 
@@ -2810,44 +2820,73 @@ Action()
 	 
 
 	
+	web_reg_save_param_attrib(
+		"ParamName=_sourcePage_1",
+		"TagName=input",
+		"Extract=value",
+		"Name=_sourcePage",
+		"Type=hidden",
+		"SEARCH_FILTERS",
+		"IgnoreRedirections=No",
+		"LAST");
+
+	web_reg_save_param_attrib(
+		"ParamName=__fp_1",
+		"TagName=input",
+		"Extract=value",
+		"Name=__fp",
+		"Type=hidden",
+		"SEARCH_FILTERS",
+		"IgnoreRedirections=No",
+		"LAST");
+
 	web_url("Proceed to Checkout", 
 		"URL=http://192.168.1.193:8084/actions/Order.action?newOrderForm=", 
 		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=text/html", 
-		"Referer=http://192.168.1.193:8084/actions/Cart.action?addItemToCart=&workingItemId=EST-3", 
+		"Referer=http://192.168.1.193:8084/actions/Cart.action?addItemToCart=&workingItemId={allworkingitems}", 
 		"Snapshot=t8.inf", 
 		"Mode=HTML", 
 		"LAST");
 	
+	
+	allworkingitems=lr_paramarr_random("workingItemId");
+	lr_save_string(allworkingitems,"allworkingitems");
+	
 	lr_think_time(10);
+	
+	
+	
+	
+	
 
 	 
 
 	
-	web_submit_data("Order.action", 
-		"Action=http://192.168.1.193:8084/actions/Order.action", 
-		"Method=POST", 
-		"TargetFrame=", 
-		"RecContentType=text/html", 
-		"Referer=http://192.168.1.193:8084/actions/Order.action?newOrderForm=", 
-		"Snapshot=t9.inf", 
-		"Mode=HTML", 
-		"ITEMDATA", 
-		"Name=order.cardType", "Value=Visa", "ENDITEM", 
-		"Name=order.creditCard", "Value=999 9999 9999 9999", "ENDITEM", 
-		"Name=order.expiryDate", "Value=12/03", "ENDITEM", 
-		"Name=order.billToFirstName", "Value=Mohammed", "ENDITEM", 
-		"Name=order.billToLastName", "Value=Islam", "ENDITEM", 
-		"Name=order.billAddress1", "Value=225 Tyler ST", "ENDITEM", 
-		"Name=order.billAddress2", "Value=", "ENDITEM", 
-		"Name=order.billCity", "Value=SOUTH AMBOY", "ENDITEM", 
-		"Name=order.billState", "Value=NJ", "ENDITEM", 
-		"Name=order.billZip", "Value=08879", "ENDITEM", 
-		"Name=order.billCountry", "Value=United States", "ENDITEM", 
-		"Name=newOrder", "Value=Continue", "ENDITEM", 
-		"Name=_sourcePage", "Value=iaxH7EMB8C8OivrWh9isGCIiXUqu67WsSCMSxZLZ_9F-olidEM9FHT4ltcx4Ebm1XWSr7HXzYc0kNGgyoS6-hxgTclspjJsKy3miurV2ShY=", "ENDITEM", 
-		"Name=__fp", "Value=c5AV2-iZWfzsH0XUnJ0vFECHjTVwvFzfHOW9oHiFSh1Orn_7EL1-HQF0Tsw206yLR33d4aebk3qe79lzk5ytMVvrxWYHYZCpT2lCm9746SKu7qi9FvqLLg==", "ENDITEM", 
+	web_submit_data("Order.action",
+		"Action=http://192.168.1.193:8084/actions/Order.action",
+		"Method=POST",
+		"TargetFrame=",
+		"RecContentType=text/html",
+		"Referer=http://192.168.1.193:8084/actions/Order.action?newOrderForm=",
+		"Snapshot=t9.inf",
+		"Mode=HTML",
+		"ITEMDATA",
+		"Name=order.cardType", "Value=Visa", "ENDITEM",
+		"Name=order.creditCard", "Value=999 9999 9999 {p_randumnumber}", "ENDITEM",
+		"Name=order.expiryDate", "Value=12/03", "ENDITEM",
+		"Name=order.billToFirstName", "Value=Mohammed", "ENDITEM",
+		"Name=order.billToLastName", "Value=Islam", "ENDITEM",
+		"Name=order.billAddress1", "Value=225 Tyler ST", "ENDITEM",
+		"Name=order.billAddress2", "Value=", "ENDITEM",
+		"Name=order.billCity", "Value=SOUTH AMBOY", "ENDITEM",
+		"Name=order.billState", "Value=NJ", "ENDITEM",
+		"Name=order.billZip", "Value=08879", "ENDITEM",
+		"Name=order.billCountry", "Value=United States", "ENDITEM",
+		"Name=newOrder", "Value=Continue", "ENDITEM",
+		"Name=_sourcePage", "Value={_sourcePage_1}", "ENDITEM",
+		"Name=__fp", "Value={__fp_1}", "ENDITEM",
 		"LAST");
 	
 	

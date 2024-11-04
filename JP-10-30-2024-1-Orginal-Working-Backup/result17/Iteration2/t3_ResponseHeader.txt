@@ -1,0 +1,9 @@
+HTTP/1.1 200 
+Set-Cookie: JSESSIONID=1CE2D9ACA57ECD0F71501BEE905B0850; Path=/; HttpOnly
+Content-Type: text/html;charset=UTF-8
+Content-Language: en-US
+Content-Length: 5352
+Date: Sat, 02 Nov 2024 11:36:35 GMT
+Keep-Alive: timeout=20
+Connection: keep-alive
+

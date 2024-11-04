@@ -1,0 +1,12 @@
+POST /actions/Account.action HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Referer: http://192.168.1.193:8084/actions/Account.action;jsessionid=FFB1C61D8E845BA322B5B87A26AF5A28?signonForm=
+Accept-Language: en-US,en;q=0.5
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate, br
+Accept: */*
+Connection: Keep-Alive
+Host: 192.168.1.193:8084
+Cookie: JSESSIONID=FFB1C61D8E845BA322B5B87A26AF5A28
+Content-Length: 238
+

@@ -1,0 +1,13 @@
+[t5]
+SnapshotXmlFile=snapshot_4.xml
+ContentType=text/html
+StepName=Url: Sign In
+Total=1
+FileName1=t5.html
+RequestHeaderFile=t5_RequestHeader.txt
+ResponseHeaderFile=t5_ResponseHeader.txt
+RawStepEndTime=1730573997460
+RawStepName=Sign In
+RequestBodyFile=t5_RequestBody.txt
+RawStepStartTime=1730573997441
+URL1=http://192.168.1.193:8084/actions/Account.action;jsessionid=2E465338A2CE80BA93F904CE8FB12D9A?signonForm=
