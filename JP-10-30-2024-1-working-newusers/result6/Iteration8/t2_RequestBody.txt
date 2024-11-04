@@ -1,3 +1,0 @@
-"{"pocket_id":"{06e2b05e-5751-4f82-8799-39533fd534c9}","version":2,"consumer_key":"40249-e88c40"
-"1e1b1f2242d9e441c4","placements":[{"name":"spocs","ad_types":[3617],"zone_ids":[217758,217995]"
-"}]}"

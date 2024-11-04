@@ -1,4 +1,0 @@
-ReRecord()
-{
-	return 0;
-}

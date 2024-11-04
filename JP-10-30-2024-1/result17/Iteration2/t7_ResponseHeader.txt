@@ -1,8 +1,0 @@
-HTTP/1.1 200 
-Content-Type: text/html;charset=UTF-8
-Content-Language: en-US
-Content-Length: 4905
-Date: Fri, 01 Nov 2024 21:46:46 GMT
-Keep-Alive: timeout=20
-Connection: keep-alive
-

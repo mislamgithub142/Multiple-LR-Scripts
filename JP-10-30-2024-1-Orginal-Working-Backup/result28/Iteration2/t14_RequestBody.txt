@@ -1,6 +1,0 @@
-"order.cardType=Visa%22+selected%3D%22selected&order.creditCard=999+8286+9999+6019&order.expiry"
-"Date=11%2F24&order.billToFirstName=Jesmeen&order.billToLastName=Buhiyan&order.billAddress1=225"
-"+Tyler+ST&order.billAddress2=&order.billCity=SOUTH+AMBOY&order.billState=NJ&order.billZip=0887"
-"9&order.billCountry=United+States&newOrder=Continue&_sourcePage=zmX9Xv_mQOPecAoBb6cDpTbVB1Zv8m"
-"BCoM8dPMJaA4eLPaziTEtEkBe9k_7c2Hflxyn_PJFFLyjUFUi1nXczgIvfaEew6l_8ODOahKRb-OA%3D&__fp=6PQT2iSk"
-"N6dlTHjI7elmsZoVQdITcq78IOEok_7k8aiZfvpfq0KxvxaYORO9t0wZ"

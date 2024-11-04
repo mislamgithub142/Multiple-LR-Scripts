@@ -1,6 +1,0 @@
-"order.cardType=MasterCard&order.creditCard=999+1377+9999+7472&order.expiryDate=11%2F24&order.b"
-"illToFirstName=Evan&order.billToLastName=Rayhanul&order.billAddress1=225+Tyler+ST&order.billAd"
-"dress2=&order.billCity=SOUTH+AMBOY&order.billState=NJ&order.billZip=08879&order.billCountry=Un"
-"ited+States&newOrder=Continue&_sourcePage=-xGVzRhGPIekM7usUIXFScDggWKYvlL2UhEZPJUZERp1tTjlJYdC"
-"-94-nj5tN2XjASgBupi7kcVzWr6qN5SvqNH7p4ESMAmcdCzEOdn92Og%3D&__fp=FA8WktqTZNncf8-cGft8McvXYg1e16"
-"YoPQ_BgPhCQQcbYNYfRiNOnkfmPZ4THhnN"

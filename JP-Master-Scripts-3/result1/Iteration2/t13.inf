@@ -1,0 +1,13 @@
+[t13]
+SnapshotXmlFile=snapshot_8.xml
+ContentType=text/html
+StepName=Url: Proceed to Checkout
+Total=1
+FileName1=t13.html
+RequestHeaderFile=t13_RequestHeader.txt
+ResponseHeaderFile=t13_ResponseHeader.txt
+RawStepEndTime=1730679408425
+RawStepName=Proceed to Checkout
+RequestBodyFile=t13_RequestBody.txt
+RawStepStartTime=1730679408417
+URL1=http://192.168.1.193:8084/actions/Order.action?newOrderForm=

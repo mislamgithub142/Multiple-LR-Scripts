@@ -1,2 +1,0 @@
-"numPassengers=1&advanceDiscount=0&outboundFlight=%7BoutboundFlight%7D&reutrnFlight=&seatType=B"
-"usiness&seatPref=Window&reserveFlights.x=48&reserveFlights.y=7"

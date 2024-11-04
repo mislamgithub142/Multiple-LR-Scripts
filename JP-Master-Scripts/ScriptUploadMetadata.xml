@@ -4,9 +4,6 @@
   <Protocol>Web - HTTP/HTML</Protocol>
   <ActionFiles>
     <FileEntry Name="vuser_init.c" Filter="2" />
-    <FileEntry Name="DowhileLoop.c" Filter="2" />
-    <FileEntry Name="ForLoop.c" Filter="2" />
-    <FileEntry Name="CreateUsers.c" Filter="2" />
     <FileEntry Name="NewusersLogin.c" Filter="2" />
     <FileEntry Name="vuser_end.c" Filter="2" />
   </ActionFiles>

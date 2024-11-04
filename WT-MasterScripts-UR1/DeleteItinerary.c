@@ -1,4 +1,0 @@
-DeleteItinerary()
-{
-	return 0;
-}

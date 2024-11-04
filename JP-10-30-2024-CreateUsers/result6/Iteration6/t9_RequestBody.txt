@@ -1,7 +1,0 @@
-"username=test11&password=test123&repeatedPassword=test123&account.firstName=Mohammed6778&accou"
-"nt.lastName=Islam8097&account.email=test11%40gmail.com&account.phone=7322438819&account.addres"
-"s1=5185+Main+ST.&account.address2=&account.city=South+Amboy&account.state=NJ&account.zip=03810"
-"&account.country=USA&account.languagePreference=english&account.favouriteCategoryId=FISH&newAc"
-"count=Save+Account+Information&_sourcePage=4KD3OrSCh-AGY4vzANz_iea7YocHz6WUCYvVCMmUGB_Wkql_2Fm"
-"ENW5lHkPqQaQ9E-MIBhhyMWh91mUmkXo2rI7L-x9zxNTHBZkdblUSQ8k%3D&__fp=jD1RZukayZZa8Gn57xmScFoLkQLF8"
-"AsYa95tDBmLV0zDjGseQp2_eCx3OFp7Ip3m"

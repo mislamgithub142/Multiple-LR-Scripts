@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--IC:\2025-Development\Multiple-LR-Scripts\WT-10-29-2024_1
--IC:\Program Files (x86)\OpenText\LoadRunner\include
--ec:\2025-development\multiple-lr-scripts\wt-10-29-2024_1\\logfile.log
-c:\2025-development\multiple-lr-scripts\wt-10-29-2024_1\\combined_WT-10-29-2024_1.c
-c:\2025-development\multiple-lr-scripts\wt-10-29-2024_1\\pre_cci.c

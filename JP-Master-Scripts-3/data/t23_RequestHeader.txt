@@ -1,0 +1,14 @@
+GET /actions/Cart.action?addItemToCart=&workingItemId=EST-8 HTTP/1.1
+Host: 192.168.1.193:8084
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+DNT: 1
+Sec-GPC: 1
+Connection: keep-alive
+Referer: http://192.168.1.193:8084/actions/Catalog.action?viewProduct=&productId=K9-PO-02
+Cookie: JSESSIONID=A8CC9ACB195D3AD6951F4764771F763E
+Upgrade-Insecure-Requests: 1
+Priority: u=0, i
+

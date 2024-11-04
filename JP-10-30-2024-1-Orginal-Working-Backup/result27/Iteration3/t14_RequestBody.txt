@@ -1,6 +1,0 @@
-"order.cardType=Visa%22+selected%3D%22selected&order.creditCard=999+8971+9999+8304&order.expiry"
-"Date=11%2F24&order.billToFirstName=Evan&order.billToLastName=Rayhanul&order.billAddress1=225+T"
-"yler+ST&order.billAddress2=&order.billCity=SOUTH+AMBOY&order.billState=NJ&order.billZip=08879&"
-"order.billCountry=United+States&newOrder=Continue&_sourcePage=wwZsqpaaGbNc1S3S_aVScymNOKvAH2yr"
-"nhlnhGjwD5VB86nqlLAW5lUxABM1YrW_UDSB2vwOMy7_GHIl69DEp2oQYjvO1JWByv98G-HFXvE%3D&__fp=LyqROMiAW7"
-"rp8Vo6P__rHsbe8jZNtqGUXJH--wDokgzkNUl-XP9Ud6ASXS4jXA_5"

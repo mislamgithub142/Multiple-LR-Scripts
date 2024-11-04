@@ -1,6 +1,0 @@
-"order.cardType=American+Express&order.creditCard=999+9999+9999+9999&order.expiryDate=12%2F03&o"
-"rder.billToFirstName=Mohammed8920&order.billToLastName=Islam4465&order.billAddress1=6537+Main+"
-"ST.&order.billAddress2=&order.billCity=South+Amboy&order.billState=NJ&order.billZip=05372&orde"
-"r.billCountry=USA&newOrder=Continue&_sourcePage=RvdUX-1w_J0JpxTR0qcpJ_JX_R7KnP536RJiDHblbQU1xC"
-"261Scl0p3YRrk5QiCcGIKj7DHvWKTMGI6cg6DPBp_-5_DpLyWtWYGsH9BVTk0%3D&__fp=hqjq2NvRnzDV7Y9RjuKMlAhM"
-"twNmlIfPoqwEBbQfb_-LD-h0FaawbPaIin_XxQki"

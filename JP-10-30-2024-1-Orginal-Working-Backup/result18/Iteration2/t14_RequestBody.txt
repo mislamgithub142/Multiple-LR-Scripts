@@ -1,6 +1,0 @@
-"order.cardType=MasterCard&order.creditCard=999+3960+9999+3682&order.expiryDate=11%2F24&order.b"
-"illToFirstName=Jesmeen&order.billToLastName=Buhiyan&order.billAddress1=225+Tyler+ST&order.bill"
-"Address2=&order.billCity=SOUTH+AMBOY&order.billState=NJ&order.billZip=08879&order.billCountry="
-"United+States&newOrder=Continue&_sourcePage=y3tC0fcJuw_QB6EkkIbcO6FRnEJ4IZYG_LdrDuxklXeCLwOKze"
-"7LAa5BPfuOr0LxPllCVNBEufeaYfXUQo9JWIjArBTX0ETWBlj1KqZGmgM%3D&__fp=3cW_vcKwZyMz-3ywlR62_hAalJha"
-"BRc5LnTn_bYCEoxjtrqsbqk0VhVJgLRj39rN"

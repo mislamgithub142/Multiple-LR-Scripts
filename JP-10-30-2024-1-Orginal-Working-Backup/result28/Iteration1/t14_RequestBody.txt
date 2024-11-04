@@ -1,6 +1,0 @@
-"order.cardType=%7Ballcardtypes%7D&order.creditCard=999+2634+9999+9945&order.expiryDate=11%2F24"
-"&order.billToFirstName=Mohammed&order.billToLastName=Islam&order.billAddress1=225+Tyler+ST&ord"
-"er.billAddress2=&order.billCity=SOUTH+AMBOY&order.billState=NJ&order.billZip=08879&order.billC"
-"ountry=United+States&newOrder=Continue&_sourcePage=BUhbho5UZbji6bfrMk2RT6WIFGRdU6LD561SJZt-TY1"
-"6ZEyVkBzV5YYXYpaphyfQh676TA_s9aiTLPoXue7OH9U4HP_vADGdwHnKVuKDr10%3D&__fp=0F2TL6v6rbbYCJ_ubuumK"
-"AdX7vNsJ1heWwU9T4TsY9LK1vCgupD_zIY1hLBZY64O"
